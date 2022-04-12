@@ -1,7 +1,7 @@
-# Untitled object in undefined Schema
+# Untitled object in War Room Models Schema
 
 ```txt
-undefined#/definitions/GridLocatable
+WarRoomModels#/definitions/GridLocatable
 ```
 
 
@@ -16,9 +16,9 @@ undefined#/definitions/GridLocatable
 
 # GridLocatable Properties
 
-| Property              | Type     | Required | Nullable       | Defined by                                                                                                                            |
-| :-------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------ |
-| [location](#location) | `object` | Required | cannot be null | [Untitled schema](models-definitions-gridlocatable-properties-location.md "undefined#/definitions/GridLocatable/properties/location") |
+| Property              | Type     | Required | Nullable       | Defined by                                                                                                                                |
+| :-------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------- |
+| [location](#location) | `object` | Required | cannot be null | [War Room Models](models-definitions-gridlocatable-properties-location.md "WarRoomModels#/definitions/GridLocatable/properties/location") |
 
 ## location
 
@@ -32,7 +32,7 @@ undefined#/definitions/GridLocatable
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-gridlocatable-properties-location.md "undefined#/definitions/GridLocatable/properties/location")
+*   defined in: [War Room Models](models-definitions-gridlocatable-properties-location.md "WarRoomModels#/definitions/GridLocatable/properties/location")
 
 ### location Type
 

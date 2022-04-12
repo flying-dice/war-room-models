@@ -1,15 +1,15 @@
-# Untitled string in undefined Schema
+# Air Units Schema
 
 ```txt
-undefined#/definitions/OperationFile/properties/coalitions/properties/opfor/items
+AirUnits#/definitions/OperationFile/properties/airUnits
 ```
 
-
+Operation Air Units such as Fighter Wings
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [models.schema.json\*](models.schema.json "open original schema") |
 
-## items Type
+## airUnits Type
 
-`string`
+`object[]` ([Details](models-definitions-airunit.md))

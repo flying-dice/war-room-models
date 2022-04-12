@@ -1,7 +1,7 @@
-# Untitled object in undefined Schema
+# Untitled object in War Room Models Schema
 
 ```txt
-undefined#/definitions/OperationFile/properties/installations/items
+Installations#/definitions/OperationFile/properties/installations/items
 ```
 
 
@@ -16,14 +16,14 @@ undefined#/definitions/OperationFile/properties/installations/items
 
 # items Properties
 
-| Property              | Type          | Required | Nullable       | Defined by                                                                                                                          |
-| :-------------------- | :------------ | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
-| [country](#country)   | `string`      | Required | cannot be null | [Untitled schema](models-definitions-installation-properties-country.md "undefined#/definitions/Installation/properties/country")   |
-| [health](#health)     | `number`      | Required | cannot be null | [Untitled schema](models-definitions-installation-properties-health.md "undefined#/definitions/Installation/properties/health")     |
-| [id](#id)             | `string`      | Required | cannot be null | [Untitled schema](models-definitions-installation-properties-id.md "undefined#/definitions/Installation/properties/id")             |
-| [location](#location) | Not specified | Required | cannot be null | [Untitled schema](models-definitions-installation-properties-location.md "undefined#/definitions/Installation/properties/location") |
-| [name](#name)         | `string`      | Required | cannot be null | [Untitled schema](models-definitions-installation-properties-name.md "undefined#/definitions/Installation/properties/name")         |
-| [type](#type)         | `string`      | Required | cannot be null | [Untitled schema](models-definitions-installation-properties-type.md "undefined#/definitions/Installation/properties/type")         |
+| Property              | Type          | Required | Nullable       | Defined by                                                                                                                              |
+| :-------------------- | :------------ | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
+| [country](#country)   | `string`      | Required | cannot be null | [War Room Models](models-definitions-installation-properties-country.md "WarRoomModels#/definitions/Installation/properties/country")   |
+| [health](#health)     | `number`      | Required | cannot be null | [War Room Models](models-definitions-installation-properties-health.md "WarRoomModels#/definitions/Installation/properties/health")     |
+| [id](#id)             | `string`      | Required | cannot be null | [War Room Models](models-definitions-installation-properties-id.md "WarRoomModels#/definitions/Installation/properties/id")             |
+| [location](#location) | Not specified | Required | cannot be null | [War Room Models](models-definitions-installation-properties-location.md "WarRoomModels#/definitions/Installation/properties/location") |
+| [name](#name)         | `string`      | Required | cannot be null | [War Room Models](models-definitions-installation-properties-name.md "WarRoomModels#/definitions/Installation/properties/name")         |
+| [type](#type)         | `string`      | Required | cannot be null | [War Room Models](models-definitions-installation-properties-type.md "WarRoomModels#/definitions/Installation/properties/type")         |
 
 ## country
 
@@ -37,7 +37,7 @@ undefined#/definitions/OperationFile/properties/installations/items
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-installation-properties-country.md "undefined#/definitions/Installation/properties/country")
+*   defined in: [War Room Models](models-definitions-installation-properties-country.md "WarRoomModels#/definitions/Installation/properties/country")
 
 ### country Type
 
@@ -55,7 +55,7 @@ undefined#/definitions/OperationFile/properties/installations/items
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-installation-properties-health.md "undefined#/definitions/Installation/properties/health")
+*   defined in: [War Room Models](models-definitions-installation-properties-health.md "WarRoomModels#/definitions/Installation/properties/health")
 
 ### health Type
 
@@ -73,7 +73,7 @@ undefined#/definitions/OperationFile/properties/installations/items
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-installation-properties-id.md "undefined#/definitions/Installation/properties/id")
+*   defined in: [War Room Models](models-definitions-installation-properties-id.md "WarRoomModels#/definitions/Installation/properties/id")
 
 ### id Type
 
@@ -91,7 +91,7 @@ undefined#/definitions/OperationFile/properties/installations/items
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-installation-properties-location.md "undefined#/definitions/Installation/properties/location")
+*   defined in: [War Room Models](models-definitions-installation-properties-location.md "WarRoomModels#/definitions/Installation/properties/location")
 
 ### location Type
 
@@ -109,7 +109,7 @@ unknown
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-installation-properties-name.md "undefined#/definitions/Installation/properties/name")
+*   defined in: [War Room Models](models-definitions-installation-properties-name.md "WarRoomModels#/definitions/Installation/properties/name")
 
 ### name Type
 
@@ -127,7 +127,7 @@ unknown
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-installation-properties-type.md "undefined#/definitions/Installation/properties/type")
+*   defined in: [War Room Models](models-definitions-installation-properties-type.md "WarRoomModels#/definitions/Installation/properties/type")
 
 ### type Type
 

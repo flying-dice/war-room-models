@@ -1,7 +1,7 @@
-# Untitled object in undefined Schema
+# Untitled object in War Room Models Schema
 
 ```txt
-undefined#/definitions/OperationFile/properties/groundUnits/items
+GroundUnits#/definitions/OperationFile/properties/groundUnits/items
 ```
 
 
@@ -16,15 +16,15 @@ undefined#/definitions/OperationFile/properties/groundUnits/items
 
 # items Properties
 
-| Property              | Type     | Required | Nullable       | Defined by                                                                                                                      |
-| :-------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------ |
-| [country](#country)   | `string` | Required | cannot be null | [Untitled schema](models-definitions-groundunit-properties-country.md "undefined#/definitions/GroundUnit/properties/country")   |
-| [health](#health)     | `number` | Required | cannot be null | [Untitled schema](models-definitions-groundunit-properties-health.md "undefined#/definitions/GroundUnit/properties/health")     |
-| [id](#id)             | `string` | Required | cannot be null | [Untitled schema](models-definitions-groundunit-properties-id.md "undefined#/definitions/GroundUnit/properties/id")             |
-| [location](#location) | `object` | Required | cannot be null | [Untitled schema](models-definitions-groundunit-properties-location.md "undefined#/definitions/GroundUnit/properties/location") |
-| [name](#name)         | `string` | Required | cannot be null | [Untitled schema](models-definitions-groundunit-properties-name.md "undefined#/definitions/GroundUnit/properties/name")         |
-| [size](#size)         | `number` | Required | cannot be null | [Untitled schema](models-definitions-groundunit-properties-size.md "undefined#/definitions/GroundUnit/properties/size")         |
-| [type](#type)         | `string` | Required | cannot be null | [Untitled schema](models-definitions-groundunit-properties-type.md "undefined#/definitions/GroundUnit/properties/type")         |
+| Property              | Type     | Required | Nullable       | Defined by                                                                                                                          |
+| :-------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
+| [country](#country)   | `string` | Required | cannot be null | [War Room Models](models-definitions-groundunit-properties-country.md "WarRoomModels#/definitions/GroundUnit/properties/country")   |
+| [health](#health)     | `number` | Required | cannot be null | [War Room Models](models-definitions-groundunit-properties-health.md "WarRoomModels#/definitions/GroundUnit/properties/health")     |
+| [id](#id)             | `string` | Required | cannot be null | [War Room Models](models-definitions-groundunit-properties-id.md "WarRoomModels#/definitions/GroundUnit/properties/id")             |
+| [location](#location) | `object` | Required | cannot be null | [War Room Models](models-definitions-groundunit-properties-location.md "WarRoomModels#/definitions/GroundUnit/properties/location") |
+| [name](#name)         | `string` | Required | cannot be null | [War Room Models](models-definitions-groundunit-properties-name.md "WarRoomModels#/definitions/GroundUnit/properties/name")         |
+| [size](#size)         | `number` | Required | cannot be null | [War Room Models](models-definitions-groundunit-properties-size.md "WarRoomModels#/definitions/GroundUnit/properties/size")         |
+| [type](#type)         | `string` | Required | cannot be null | [War Room Models](models-definitions-groundunit-properties-type.md "WarRoomModels#/definitions/GroundUnit/properties/type")         |
 
 ## country
 
@@ -38,7 +38,7 @@ undefined#/definitions/OperationFile/properties/groundUnits/items
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-groundunit-properties-country.md "undefined#/definitions/GroundUnit/properties/country")
+*   defined in: [War Room Models](models-definitions-groundunit-properties-country.md "WarRoomModels#/definitions/GroundUnit/properties/country")
 
 ### country Type
 
@@ -56,7 +56,7 @@ undefined#/definitions/OperationFile/properties/groundUnits/items
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-groundunit-properties-health.md "undefined#/definitions/GroundUnit/properties/health")
+*   defined in: [War Room Models](models-definitions-groundunit-properties-health.md "WarRoomModels#/definitions/GroundUnit/properties/health")
 
 ### health Type
 
@@ -74,7 +74,7 @@ undefined#/definitions/OperationFile/properties/groundUnits/items
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-groundunit-properties-id.md "undefined#/definitions/GroundUnit/properties/id")
+*   defined in: [War Room Models](models-definitions-groundunit-properties-id.md "WarRoomModels#/definitions/GroundUnit/properties/id")
 
 ### id Type
 
@@ -92,7 +92,7 @@ undefined#/definitions/OperationFile/properties/groundUnits/items
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-groundunit-properties-location.md "undefined#/definitions/GroundUnit/properties/location")
+*   defined in: [War Room Models](models-definitions-groundunit-properties-location.md "WarRoomModels#/definitions/GroundUnit/properties/location")
 
 ### location Type
 
@@ -110,7 +110,7 @@ undefined#/definitions/OperationFile/properties/groundUnits/items
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-groundunit-properties-name.md "undefined#/definitions/GroundUnit/properties/name")
+*   defined in: [War Room Models](models-definitions-groundunit-properties-name.md "WarRoomModels#/definitions/GroundUnit/properties/name")
 
 ### name Type
 
@@ -128,7 +128,7 @@ undefined#/definitions/OperationFile/properties/groundUnits/items
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-groundunit-properties-size.md "undefined#/definitions/GroundUnit/properties/size")
+*   defined in: [War Room Models](models-definitions-groundunit-properties-size.md "WarRoomModels#/definitions/GroundUnit/properties/size")
 
 ### size Type
 
@@ -146,7 +146,7 @@ undefined#/definitions/OperationFile/properties/groundUnits/items
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-groundunit-properties-type.md "undefined#/definitions/GroundUnit/properties/type")
+*   defined in: [War Room Models](models-definitions-groundunit-properties-type.md "WarRoomModels#/definitions/GroundUnit/properties/type")
 
 ### type Type
 

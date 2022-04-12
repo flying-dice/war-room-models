@@ -1,7 +1,7 @@
-# Untitled string in undefined Schema
+# Untitled string in War Room Models Schema
 
 ```txt
-undefined#/definitions/StaticUnit/properties/name
+WarRoomModels#/definitions/StaticUnit/properties/name
 ```
 
 

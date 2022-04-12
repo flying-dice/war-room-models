@@ -1,7 +1,7 @@
-# Untitled array in undefined Schema
+# Untitled array in War Room Models Schema
 
 ```txt
-undefined#/definitions/Polygon/properties/coordinates/items
+WarRoomModels#/definitions/Polygon/properties/coordinates/items
 ```
 
 

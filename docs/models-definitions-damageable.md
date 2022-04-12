@@ -1,7 +1,7 @@
-# Untitled object in undefined Schema
+# Untitled object in War Room Models Schema
 
 ```txt
-undefined#/definitions/Damageable
+WarRoomModels#/definitions/Damageable
 ```
 
 
@@ -16,9 +16,9 @@ undefined#/definitions/Damageable
 
 # Damageable Properties
 
-| Property          | Type     | Required | Nullable       | Defined by                                                                                                                  |
-| :---------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------- |
-| [health](#health) | `number` | Required | cannot be null | [Untitled schema](models-definitions-damageable-properties-health.md "undefined#/definitions/Damageable/properties/health") |
+| Property          | Type     | Required | Nullable       | Defined by                                                                                                                      |
+| :---------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------ |
+| [health](#health) | `number` | Required | cannot be null | [War Room Models](models-definitions-damageable-properties-health.md "WarRoomModels#/definitions/Damageable/properties/health") |
 
 ## health
 
@@ -32,7 +32,7 @@ undefined#/definitions/Damageable
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-damageable-properties-health.md "undefined#/definitions/Damageable/properties/health")
+*   defined in: [War Room Models](models-definitions-damageable-properties-health.md "WarRoomModels#/definitions/Damageable/properties/health")
 
 ### health Type
 

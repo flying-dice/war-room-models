@@ -1,7 +1,7 @@
-# Untitled object in undefined Schema
+# Untitled object in War Room Models Schema
 
 ```txt
-undefined#/definitions/Properties/anyOf/0
+WarRoomModels#/definitions/Properties/anyOf/0
 ```
 
 

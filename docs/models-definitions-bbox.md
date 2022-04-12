@@ -1,7 +1,7 @@
-# Untitled schema Schema
+# Untitled undefined type in War Room Models Schema
 
 ```txt
-undefined#/definitions/Polygon/properties/bbox
+WarRoomModels#/definitions/Polygon/properties/bbox
 ```
 
 Bounding box of the coordinate range of the object's Geometries, Features, or Feature Collections. <https://tools.ietf.org/html/rfc7946#section-5>
@@ -16,6 +16,6 @@ merged type ([Details](models-definitions-bbox.md))
 
 any of
 
-*   [Untitled array in undefined](models-definitions-bbox2d.md "check type definition")
+*   [Untitled array in War Room Models](models-definitions-bbox2d.md "check type definition")
 
-*   [Untitled array in undefined](models-definitions-bbox3d.md "check type definition")
+*   [Untitled array in War Room Models](models-definitions-bbox3d.md "check type definition")

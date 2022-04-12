@@ -1,7 +1,7 @@
-# Untitled string in undefined Schema
+# Untitled string in War Room Models Schema
 
 ```txt
-undefined#/definitions/OperationFile/properties/description
+Opfor#/definitions/OperationFile/properties/coalitions/properties/opfor/items
 ```
 
 
@@ -10,6 +10,6 @@ undefined#/definitions/OperationFile/properties/description
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [models.schema.json\*](models.schema.json "open original schema") |
 
-## description Type
+## items Type
 
 `string`

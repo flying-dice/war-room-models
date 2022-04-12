@@ -1,15 +1,16 @@
-# Untitled string in undefined Schema
+# Operation Area Schema
 
 ```txt
-undefined#/definitions/OperationFile/properties/name
+OperationFile#/definitions/OperationFile/properties/area
 ```
 
-
+GeoJSON Polygon Feature defining the Operation Area, See
+<https://geojson.org/geojson-spec.html> for additional info
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [models.schema.json\*](models.schema.json "open original schema") |
 
-## name Type
+## area Type
 
-`string`
+unknown ([Operation Area](models-definitions-operation-file-properties-operation-area.md))

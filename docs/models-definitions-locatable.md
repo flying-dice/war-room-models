@@ -1,7 +1,7 @@
-# Untitled object in undefined Schema
+# Untitled object in War Room Models Schema
 
 ```txt
-undefined#/definitions/Locatable
+WarRoomModels#/definitions/Locatable
 ```
 
 
@@ -16,9 +16,9 @@ undefined#/definitions/Locatable
 
 # Locatable Properties
 
-| Property              | Type          | Required | Nullable       | Defined by                                                                                                                    |
-| :-------------------- | :------------ | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------- |
-| [location](#location) | Not specified | Required | cannot be null | [Untitled schema](models-definitions-locatable-properties-location.md "undefined#/definitions/Locatable/properties/location") |
+| Property              | Type          | Required | Nullable       | Defined by                                                                                                                        |
+| :-------------------- | :------------ | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------- |
+| [location](#location) | Not specified | Required | cannot be null | [War Room Models](models-definitions-locatable-properties-location.md "WarRoomModels#/definitions/Locatable/properties/location") |
 
 ## location
 
@@ -32,7 +32,7 @@ undefined#/definitions/Locatable
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-locatable-properties-location.md "undefined#/definitions/Locatable/properties/location")
+*   defined in: [War Room Models](models-definitions-locatable-properties-location.md "WarRoomModels#/definitions/Locatable/properties/location")
 
 ### location Type
 

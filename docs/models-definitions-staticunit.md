@@ -1,7 +1,7 @@
-# Untitled object in undefined Schema
+# Untitled object in War Room Models Schema
 
 ```txt
-undefined#/definitions/StaticUnit
+WarRoomModels#/definitions/StaticUnit
 ```
 
 
@@ -16,15 +16,15 @@ undefined#/definitions/StaticUnit
 
 # StaticUnit Properties
 
-| Property              | Type          | Required | Nullable       | Defined by                                                                                                                      |
-| :-------------------- | :------------ | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------ |
-| [country](#country)   | `string`      | Required | cannot be null | [Untitled schema](models-definitions-staticunit-properties-country.md "undefined#/definitions/StaticUnit/properties/country")   |
-| [health](#health)     | `number`      | Required | cannot be null | [Untitled schema](models-definitions-staticunit-properties-health.md "undefined#/definitions/StaticUnit/properties/health")     |
-| [id](#id)             | `string`      | Required | cannot be null | [Untitled schema](models-definitions-staticunit-properties-id.md "undefined#/definitions/StaticUnit/properties/id")             |
-| [location](#location) | Not specified | Required | cannot be null | [Untitled schema](models-definitions-staticunit-properties-location.md "undefined#/definitions/StaticUnit/properties/location") |
-| [name](#name)         | `string`      | Required | cannot be null | [Untitled schema](models-definitions-staticunit-properties-name.md "undefined#/definitions/StaticUnit/properties/name")         |
-| [size](#size)         | `number`      | Required | cannot be null | [Untitled schema](models-definitions-staticunit-properties-size.md "undefined#/definitions/StaticUnit/properties/size")         |
-| [type](#type)         | `string`      | Required | cannot be null | [Untitled schema](models-definitions-staticunit-properties-type.md "undefined#/definitions/StaticUnit/properties/type")         |
+| Property              | Type          | Required | Nullable       | Defined by                                                                                                                          |
+| :-------------------- | :------------ | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
+| [country](#country)   | `string`      | Required | cannot be null | [War Room Models](models-definitions-staticunit-properties-country.md "WarRoomModels#/definitions/StaticUnit/properties/country")   |
+| [health](#health)     | `number`      | Required | cannot be null | [War Room Models](models-definitions-staticunit-properties-health.md "WarRoomModels#/definitions/StaticUnit/properties/health")     |
+| [id](#id)             | `string`      | Required | cannot be null | [War Room Models](models-definitions-staticunit-properties-id.md "WarRoomModels#/definitions/StaticUnit/properties/id")             |
+| [location](#location) | Not specified | Required | cannot be null | [War Room Models](models-definitions-staticunit-properties-location.md "WarRoomModels#/definitions/StaticUnit/properties/location") |
+| [name](#name)         | `string`      | Required | cannot be null | [War Room Models](models-definitions-staticunit-properties-name.md "WarRoomModels#/definitions/StaticUnit/properties/name")         |
+| [size](#size)         | `number`      | Required | cannot be null | [War Room Models](models-definitions-staticunit-properties-size.md "WarRoomModels#/definitions/StaticUnit/properties/size")         |
+| [type](#type)         | `string`      | Required | cannot be null | [War Room Models](models-definitions-staticunit-properties-type.md "WarRoomModels#/definitions/StaticUnit/properties/type")         |
 
 ## country
 
@@ -38,7 +38,7 @@ undefined#/definitions/StaticUnit
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-staticunit-properties-country.md "undefined#/definitions/StaticUnit/properties/country")
+*   defined in: [War Room Models](models-definitions-staticunit-properties-country.md "WarRoomModels#/definitions/StaticUnit/properties/country")
 
 ### country Type
 
@@ -56,7 +56,7 @@ undefined#/definitions/StaticUnit
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-staticunit-properties-health.md "undefined#/definitions/StaticUnit/properties/health")
+*   defined in: [War Room Models](models-definitions-staticunit-properties-health.md "WarRoomModels#/definitions/StaticUnit/properties/health")
 
 ### health Type
 
@@ -74,7 +74,7 @@ undefined#/definitions/StaticUnit
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-staticunit-properties-id.md "undefined#/definitions/StaticUnit/properties/id")
+*   defined in: [War Room Models](models-definitions-staticunit-properties-id.md "WarRoomModels#/definitions/StaticUnit/properties/id")
 
 ### id Type
 
@@ -92,7 +92,7 @@ undefined#/definitions/StaticUnit
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-staticunit-properties-location.md "undefined#/definitions/StaticUnit/properties/location")
+*   defined in: [War Room Models](models-definitions-staticunit-properties-location.md "WarRoomModels#/definitions/StaticUnit/properties/location")
 
 ### location Type
 
@@ -110,7 +110,7 @@ unknown
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-staticunit-properties-name.md "undefined#/definitions/StaticUnit/properties/name")
+*   defined in: [War Room Models](models-definitions-staticunit-properties-name.md "WarRoomModels#/definitions/StaticUnit/properties/name")
 
 ### name Type
 
@@ -128,7 +128,7 @@ unknown
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-staticunit-properties-size.md "undefined#/definitions/StaticUnit/properties/size")
+*   defined in: [War Room Models](models-definitions-staticunit-properties-size.md "WarRoomModels#/definitions/StaticUnit/properties/size")
 
 ### size Type
 
@@ -146,7 +146,7 @@ unknown
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-staticunit-properties-type.md "undefined#/definitions/StaticUnit/properties/type")
+*   defined in: [War Room Models](models-definitions-staticunit-properties-type.md "WarRoomModels#/definitions/StaticUnit/properties/type")
 
 ### type Type
 

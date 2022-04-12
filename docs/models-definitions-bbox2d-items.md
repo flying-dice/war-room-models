@@ -1,7 +1,7 @@
-# Untitled number in undefined Schema
+# Untitled number in War Room Models Schema
 
 ```txt
-undefined#/definitions/BBox2d/items
+WarRoomModels#/definitions/BBox2d/items
 ```
 
 

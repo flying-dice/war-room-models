@@ -1,7 +1,7 @@
-# Untitled object in undefined Schema
+# Untitled object in War Room Models Schema
 
 ```txt
-undefined#/definitions/Unit
+WarRoomModels#/definitions/Unit
 ```
 
 
@@ -16,14 +16,14 @@ undefined#/definitions/Unit
 
 # Unit Properties
 
-| Property            | Type     | Required | Nullable       | Defined by                                                                                                        |
-| :------------------ | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------- |
-| [country](#country) | `string` | Required | cannot be null | [Untitled schema](models-definitions-unit-properties-country.md "undefined#/definitions/Unit/properties/country") |
-| [health](#health)   | `number` | Required | cannot be null | [Untitled schema](models-definitions-unit-properties-health.md "undefined#/definitions/Unit/properties/health")   |
-| [id](#id)           | `string` | Required | cannot be null | [Untitled schema](models-definitions-unit-properties-id.md "undefined#/definitions/Unit/properties/id")           |
-| [name](#name)       | `string` | Required | cannot be null | [Untitled schema](models-definitions-unit-properties-name.md "undefined#/definitions/Unit/properties/name")       |
-| [size](#size)       | `number` | Required | cannot be null | [Untitled schema](models-definitions-unit-properties-size.md "undefined#/definitions/Unit/properties/size")       |
-| [type](#type)       | `string` | Required | cannot be null | [Untitled schema](models-definitions-unit-properties-type.md "undefined#/definitions/Unit/properties/type")       |
+| Property            | Type     | Required | Nullable       | Defined by                                                                                                            |
+| :------------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------- |
+| [country](#country) | `string` | Required | cannot be null | [War Room Models](models-definitions-unit-properties-country.md "WarRoomModels#/definitions/Unit/properties/country") |
+| [health](#health)   | `number` | Required | cannot be null | [War Room Models](models-definitions-unit-properties-health.md "WarRoomModels#/definitions/Unit/properties/health")   |
+| [id](#id)           | `string` | Required | cannot be null | [War Room Models](models-definitions-unit-properties-id.md "WarRoomModels#/definitions/Unit/properties/id")           |
+| [name](#name)       | `string` | Required | cannot be null | [War Room Models](models-definitions-unit-properties-name.md "WarRoomModels#/definitions/Unit/properties/name")       |
+| [size](#size)       | `number` | Required | cannot be null | [War Room Models](models-definitions-unit-properties-size.md "WarRoomModels#/definitions/Unit/properties/size")       |
+| [type](#type)       | `string` | Required | cannot be null | [War Room Models](models-definitions-unit-properties-type.md "WarRoomModels#/definitions/Unit/properties/type")       |
 
 ## country
 
@@ -37,7 +37,7 @@ undefined#/definitions/Unit
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-unit-properties-country.md "undefined#/definitions/Unit/properties/country")
+*   defined in: [War Room Models](models-definitions-unit-properties-country.md "WarRoomModels#/definitions/Unit/properties/country")
 
 ### country Type
 
@@ -55,7 +55,7 @@ undefined#/definitions/Unit
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-unit-properties-health.md "undefined#/definitions/Unit/properties/health")
+*   defined in: [War Room Models](models-definitions-unit-properties-health.md "WarRoomModels#/definitions/Unit/properties/health")
 
 ### health Type
 
@@ -73,7 +73,7 @@ undefined#/definitions/Unit
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-unit-properties-id.md "undefined#/definitions/Unit/properties/id")
+*   defined in: [War Room Models](models-definitions-unit-properties-id.md "WarRoomModels#/definitions/Unit/properties/id")
 
 ### id Type
 
@@ -91,7 +91,7 @@ undefined#/definitions/Unit
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-unit-properties-name.md "undefined#/definitions/Unit/properties/name")
+*   defined in: [War Room Models](models-definitions-unit-properties-name.md "WarRoomModels#/definitions/Unit/properties/name")
 
 ### name Type
 
@@ -109,7 +109,7 @@ undefined#/definitions/Unit
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-unit-properties-size.md "undefined#/definitions/Unit/properties/size")
+*   defined in: [War Room Models](models-definitions-unit-properties-size.md "WarRoomModels#/definitions/Unit/properties/size")
 
 ### size Type
 
@@ -127,7 +127,7 @@ undefined#/definitions/Unit
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-unit-properties-type.md "undefined#/definitions/Unit/properties/type")
+*   defined in: [War Room Models](models-definitions-unit-properties-type.md "WarRoomModels#/definitions/Unit/properties/type")
 
 ### type Type
 

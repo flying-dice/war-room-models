@@ -1,7 +1,7 @@
-# Untitled object in undefined Schema
+# Untitled object in War Room Models Schema
 
 ```txt
-undefined#/definitions/OperationFile/properties/airUnits/items
+AirUnits#/definitions/OperationFile/properties/airUnits/items
 ```
 
 
@@ -16,14 +16,14 @@ undefined#/definitions/OperationFile/properties/airUnits/items
 
 # items Properties
 
-| Property            | Type     | Required | Nullable       | Defined by                                                                                                              |
-| :------------------ | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------- |
-| [country](#country) | `string` | Required | cannot be null | [Untitled schema](models-definitions-airunit-properties-country.md "undefined#/definitions/AirUnit/properties/country") |
-| [health](#health)   | `number` | Required | cannot be null | [Untitled schema](models-definitions-airunit-properties-health.md "undefined#/definitions/AirUnit/properties/health")   |
-| [id](#id)           | `string` | Required | cannot be null | [Untitled schema](models-definitions-airunit-properties-id.md "undefined#/definitions/AirUnit/properties/id")           |
-| [name](#name)       | `string` | Required | cannot be null | [Untitled schema](models-definitions-airunit-properties-name.md "undefined#/definitions/AirUnit/properties/name")       |
-| [size](#size)       | `number` | Required | cannot be null | [Untitled schema](models-definitions-airunit-properties-size.md "undefined#/definitions/AirUnit/properties/size")       |
-| [type](#type)       | `string` | Required | cannot be null | [Untitled schema](models-definitions-airunit-properties-type.md "undefined#/definitions/AirUnit/properties/type")       |
+| Property            | Type     | Required | Nullable       | Defined by                                                                                                                  |
+| :------------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------- |
+| [country](#country) | `string` | Required | cannot be null | [War Room Models](models-definitions-airunit-properties-country.md "WarRoomModels#/definitions/AirUnit/properties/country") |
+| [health](#health)   | `number` | Required | cannot be null | [War Room Models](models-definitions-airunit-properties-health.md "WarRoomModels#/definitions/AirUnit/properties/health")   |
+| [id](#id)           | `string` | Required | cannot be null | [War Room Models](models-definitions-airunit-properties-id.md "WarRoomModels#/definitions/AirUnit/properties/id")           |
+| [name](#name)       | `string` | Required | cannot be null | [War Room Models](models-definitions-airunit-properties-name.md "WarRoomModels#/definitions/AirUnit/properties/name")       |
+| [size](#size)       | `number` | Required | cannot be null | [War Room Models](models-definitions-airunit-properties-size.md "WarRoomModels#/definitions/AirUnit/properties/size")       |
+| [type](#type)       | `string` | Required | cannot be null | [War Room Models](models-definitions-airunit-properties-type.md "WarRoomModels#/definitions/AirUnit/properties/type")       |
 
 ## country
 
@@ -37,7 +37,7 @@ undefined#/definitions/OperationFile/properties/airUnits/items
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-airunit-properties-country.md "undefined#/definitions/AirUnit/properties/country")
+*   defined in: [War Room Models](models-definitions-airunit-properties-country.md "WarRoomModels#/definitions/AirUnit/properties/country")
 
 ### country Type
 
@@ -55,7 +55,7 @@ undefined#/definitions/OperationFile/properties/airUnits/items
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-airunit-properties-health.md "undefined#/definitions/AirUnit/properties/health")
+*   defined in: [War Room Models](models-definitions-airunit-properties-health.md "WarRoomModels#/definitions/AirUnit/properties/health")
 
 ### health Type
 
@@ -73,7 +73,7 @@ undefined#/definitions/OperationFile/properties/airUnits/items
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-airunit-properties-id.md "undefined#/definitions/AirUnit/properties/id")
+*   defined in: [War Room Models](models-definitions-airunit-properties-id.md "WarRoomModels#/definitions/AirUnit/properties/id")
 
 ### id Type
 
@@ -91,7 +91,7 @@ undefined#/definitions/OperationFile/properties/airUnits/items
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-airunit-properties-name.md "undefined#/definitions/AirUnit/properties/name")
+*   defined in: [War Room Models](models-definitions-airunit-properties-name.md "WarRoomModels#/definitions/AirUnit/properties/name")
 
 ### name Type
 
@@ -109,7 +109,7 @@ undefined#/definitions/OperationFile/properties/airUnits/items
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-airunit-properties-size.md "undefined#/definitions/AirUnit/properties/size")
+*   defined in: [War Room Models](models-definitions-airunit-properties-size.md "WarRoomModels#/definitions/AirUnit/properties/size")
 
 ### size Type
 
@@ -127,7 +127,7 @@ undefined#/definitions/OperationFile/properties/airUnits/items
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-airunit-properties-type.md "undefined#/definitions/AirUnit/properties/type")
+*   defined in: [War Room Models](models-definitions-airunit-properties-type.md "WarRoomModels#/definitions/AirUnit/properties/type")
 
 ### type Type
 

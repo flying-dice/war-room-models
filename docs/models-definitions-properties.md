@@ -1,7 +1,7 @@
-# Untitled schema Schema
+# Untitled undefined type in War Room Models Schema
 
 ```txt
-undefined#/definitions/Properties
+WarRoomModels#/definitions/Properties
 ```
 
 Properties
@@ -18,6 +18,6 @@ merged type ([Details](models-definitions-properties.md))
 
 any of
 
-*   [Untitled object in undefined](models-definitions-properties-anyof-0.md "check type definition")
+*   [Untitled object in War Room Models](models-definitions-properties-anyof-0.md "check type definition")
 
-*   [Untitled null in undefined](models-definitions-properties-anyof-1.md "check type definition")
+*   [Untitled null in War Room Models](models-definitions-properties-anyof-1.md "check type definition")

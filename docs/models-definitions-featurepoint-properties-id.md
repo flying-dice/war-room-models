@@ -1,7 +1,7 @@
-# Untitled schema Schema
+# Untitled undefined type in War Room Models Schema
 
 ```txt
-undefined#/definitions/Feature<Point>/properties/id
+WarRoomModels#/definitions/Feature<Point>/properties/id
 ```
 
 Id

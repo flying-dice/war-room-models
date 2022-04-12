@@ -1,7 +1,7 @@
-# Untitled array in undefined Schema
+# Operation Description Schema
 
 ```txt
-undefined#/definitions/OperationFile/properties/coalitions/properties/opfor
+OperationFile#/definitions/OperationFile/properties/description
 ```
 
 
@@ -10,6 +10,6 @@ undefined#/definitions/OperationFile/properties/coalitions/properties/opfor
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [models.schema.json\*](models.schema.json "open original schema") |
 
-## opfor Type
+## description Type
 
-`string[]`
+`string` ([Operation Description](models-definitions-operation-file-properties-operation-description.md))

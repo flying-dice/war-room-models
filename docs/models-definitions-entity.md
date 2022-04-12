@@ -1,7 +1,7 @@
-# Untitled object in undefined Schema
+# Untitled object in War Room Models Schema
 
 ```txt
-undefined#/definitions/Entity
+WarRoomModels#/definitions/Entity
 ```
 
 
@@ -16,10 +16,10 @@ undefined#/definitions/Entity
 
 # Entity Properties
 
-| Property      | Type     | Required | Nullable       | Defined by                                                                                                      |
-| :------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------- |
-| [id](#id)     | `string` | Required | cannot be null | [Untitled schema](models-definitions-entity-properties-id.md "undefined#/definitions/Entity/properties/id")     |
-| [name](#name) | `string` | Required | cannot be null | [Untitled schema](models-definitions-entity-properties-name.md "undefined#/definitions/Entity/properties/name") |
+| Property      | Type     | Required | Nullable       | Defined by                                                                                                          |
+| :------------ | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------ |
+| [id](#id)     | `string` | Required | cannot be null | [War Room Models](models-definitions-entity-properties-id.md "WarRoomModels#/definitions/Entity/properties/id")     |
+| [name](#name) | `string` | Required | cannot be null | [War Room Models](models-definitions-entity-properties-name.md "WarRoomModels#/definitions/Entity/properties/name") |
 
 ## id
 
@@ -33,7 +33,7 @@ undefined#/definitions/Entity
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-entity-properties-id.md "undefined#/definitions/Entity/properties/id")
+*   defined in: [War Room Models](models-definitions-entity-properties-id.md "WarRoomModels#/definitions/Entity/properties/id")
 
 ### id Type
 
@@ -51,7 +51,7 @@ undefined#/definitions/Entity
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-entity-properties-name.md "undefined#/definitions/Entity/properties/name")
+*   defined in: [War Room Models](models-definitions-entity-properties-name.md "WarRoomModels#/definitions/Entity/properties/name")
 
 ### name Type
 

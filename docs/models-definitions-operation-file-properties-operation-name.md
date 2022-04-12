@@ -1,7 +1,7 @@
-# Untitled string in undefined Schema
+# Operation Name Schema
 
 ```txt
-undefined#/definitions/OperationFile/properties/coalitions/properties/blufor/items
+OperationFile#/definitions/OperationFile/properties/name
 ```
 
 
@@ -10,6 +10,6 @@ undefined#/definitions/OperationFile/properties/coalitions/properties/blufor/ite
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [models.schema.json\*](models.schema.json "open original schema") |
 
-## items Type
+## name Type
 
-`string`
+`string` ([Operation Name](models-definitions-operation-file-properties-operation-name.md))

@@ -1,7 +1,7 @@
-# Untitled object in undefined Schema
+# Untitled object in War Room Models Schema
 
 ```txt
-undefined#/definitions/Feature<Polygon>
+WarRoomModels#/definitions/Feature<Polygon>
 ```
 
 Feature
@@ -18,13 +18,13 @@ Feature
 
 # Feature\<Polygon> Properties
 
-| Property                  | Type     | Required | Nullable       | Defined by                                                                                                                        |
-| :------------------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------- |
-| [bbox](#bbox)             | Merged   | Optional | cannot be null | [Untitled schema](models-definitions-bbox.md "undefined#/definitions/Feature<Polygon>/properties/bbox")                           |
-| [geometry](#geometry)     | `object` | Required | cannot be null | [Untitled schema](models-definitions-polygon.md "undefined#/definitions/Feature<Polygon>/properties/geometry")                    |
-| [id](#id)                 | Multiple | Optional | cannot be null | [Untitled schema](models-definitions-featurepolygon-properties-id.md "undefined#/definitions/Feature<Polygon>/properties/id")     |
-| [properties](#properties) | Merged   | Required | cannot be null | [Untitled schema](models-definitions-properties.md "undefined#/definitions/Feature<Polygon>/properties/properties")               |
-| [type](#type)             | `string` | Required | cannot be null | [Untitled schema](models-definitions-featurepolygon-properties-type.md "undefined#/definitions/Feature<Polygon>/properties/type") |
+| Property                  | Type     | Required | Nullable       | Defined by                                                                                                                            |
+| :------------------------ | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------ |
+| [bbox](#bbox)             | Merged   | Optional | cannot be null | [War Room Models](models-definitions-bbox.md "WarRoomModels#/definitions/Feature<Polygon>/properties/bbox")                           |
+| [geometry](#geometry)     | `object` | Required | cannot be null | [War Room Models](models-definitions-polygon.md "WarRoomModels#/definitions/Feature<Polygon>/properties/geometry")                    |
+| [id](#id)                 | Multiple | Optional | cannot be null | [War Room Models](models-definitions-featurepolygon-properties-id.md "WarRoomModels#/definitions/Feature<Polygon>/properties/id")     |
+| [properties](#properties) | Merged   | Required | cannot be null | [War Room Models](models-definitions-properties.md "WarRoomModels#/definitions/Feature<Polygon>/properties/properties")               |
+| [type](#type)             | `string` | Required | cannot be null | [War Room Models](models-definitions-featurepolygon-properties-type.md "WarRoomModels#/definitions/Feature<Polygon>/properties/type") |
 
 ## bbox
 
@@ -38,7 +38,7 @@ Bounding box of the coordinate range of the object's Geometries, Features, or Fe
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-bbox.md "undefined#/definitions/Feature<Polygon>/properties/bbox")
+*   defined in: [War Room Models](models-definitions-bbox.md "WarRoomModels#/definitions/Feature<Polygon>/properties/bbox")
 
 ### bbox Type
 
@@ -46,9 +46,9 @@ merged type ([Details](models-definitions-bbox.md))
 
 any of
 
-*   [Untitled array in undefined](models-definitions-bbox2d.md "check type definition")
+*   [Untitled array in War Room Models](models-definitions-bbox2d.md "check type definition")
 
-*   [Untitled array in undefined](models-definitions-bbox3d.md "check type definition")
+*   [Untitled array in War Room Models](models-definitions-bbox3d.md "check type definition")
 
 ## geometry
 
@@ -64,7 +64,7 @@ Polygon Geometry Object
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-polygon.md "undefined#/definitions/Feature<Polygon>/properties/geometry")
+*   defined in: [War Room Models](models-definitions-polygon.md "WarRoomModels#/definitions/Feature<Polygon>/properties/geometry")
 
 ### geometry Type
 
@@ -84,7 +84,7 @@ Id
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-featurepolygon-properties-id.md "undefined#/definitions/Feature<Polygon>/properties/id")
+*   defined in: [War Room Models](models-definitions-featurepolygon-properties-id.md "WarRoomModels#/definitions/Feature<Polygon>/properties/id")
 
 ### id Type
 
@@ -104,7 +104,7 @@ Properties
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-properties.md "undefined#/definitions/Feature<Polygon>/properties/properties")
+*   defined in: [War Room Models](models-definitions-properties.md "WarRoomModels#/definitions/Feature<Polygon>/properties/properties")
 
 ### properties Type
 
@@ -112,9 +112,9 @@ merged type ([Details](models-definitions-properties.md))
 
 any of
 
-*   [Untitled object in undefined](models-definitions-properties-anyof-0.md "check type definition")
+*   [Untitled object in War Room Models](models-definitions-properties-anyof-0.md "check type definition")
 
-*   [Untitled null in undefined](models-definitions-properties-anyof-1.md "check type definition")
+*   [Untitled null in War Room Models](models-definitions-properties-anyof-1.md "check type definition")
 
 ## type
 
@@ -128,7 +128,7 @@ Specifies the type of GeoJSON object.
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-featurepolygon-properties-type.md "undefined#/definitions/Feature<Polygon>/properties/type")
+*   defined in: [War Room Models](models-definitions-featurepolygon-properties-type.md "WarRoomModels#/definitions/Feature<Polygon>/properties/type")
 
 ### type Type
 

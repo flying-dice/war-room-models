@@ -1,7 +1,7 @@
-# Untitled array in undefined Schema
+# Untitled string in War Room Models Schema
 
 ```txt
-undefined#/definitions/OperationFile/properties/airUnits
+Blufor#/definitions/OperationFile/properties/coalitions/properties/blufor/items
 ```
 
 
@@ -10,6 +10,6 @@ undefined#/definitions/OperationFile/properties/airUnits
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [models.schema.json\*](models.schema.json "open original schema") |
 
-## airUnits Type
+## items Type
 
-`object[]` ([Details](models-definitions-airunit.md))
+`string`

@@ -1,7 +1,7 @@
-# Untitled string in undefined Schema
+# Operation ID Schema
 
 ```txt
-undefined#/definitions/OperationFile/properties/id
+OperationFile#/definitions/OperationFile/properties/id
 ```
 
 
@@ -12,4 +12,4 @@ undefined#/definitions/OperationFile/properties/id
 
 ## id Type
 
-`string`
+`string` ([Operation ID](models-definitions-operation-file-properties-operation-id.md))

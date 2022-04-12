@@ -1,7 +1,7 @@
-# Untitled number in undefined Schema
+# Untitled number in War Room Models Schema
 
 ```txt
-undefined#/definitions/TurnInformation/properties/turn
+WarRoomModels#/definitions/TurnInformation/properties/turn
 ```
 
 

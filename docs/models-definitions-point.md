@@ -1,7 +1,7 @@
-# Untitled object in undefined Schema
+# Untitled object in War Room Models Schema
 
 ```txt
-undefined#/definitions/Point
+WarRoomModels#/definitions/Point
 ```
 
 Point Geometry Object
@@ -18,11 +18,11 @@ Point Geometry Object
 
 # Point Properties
 
-| Property                    | Type     | Required | Nullable       | Defined by                                                                                                    |
-| :-------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------ |
-| [bbox](#bbox)               | Merged   | Optional | cannot be null | [Untitled schema](models-definitions-bbox.md "undefined#/definitions/Point/properties/bbox")                  |
-| [coordinates](#coordinates) | `array`  | Required | cannot be null | [Untitled schema](models-definitions-position.md "undefined#/definitions/Point/properties/coordinates")       |
-| [type](#type)               | `string` | Required | cannot be null | [Untitled schema](models-definitions-point-properties-type.md "undefined#/definitions/Point/properties/type") |
+| Property                    | Type     | Required | Nullable       | Defined by                                                                                                        |
+| :-------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------- |
+| [bbox](#bbox)               | Merged   | Optional | cannot be null | [War Room Models](models-definitions-bbox.md "WarRoomModels#/definitions/Point/properties/bbox")                  |
+| [coordinates](#coordinates) | `array`  | Required | cannot be null | [War Room Models](models-definitions-position.md "WarRoomModels#/definitions/Point/properties/coordinates")       |
+| [type](#type)               | `string` | Required | cannot be null | [War Room Models](models-definitions-point-properties-type.md "WarRoomModels#/definitions/Point/properties/type") |
 
 ## bbox
 
@@ -36,7 +36,7 @@ Bounding box of the coordinate range of the object's Geometries, Features, or Fe
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-bbox.md "undefined#/definitions/Point/properties/bbox")
+*   defined in: [War Room Models](models-definitions-bbox.md "WarRoomModels#/definitions/Point/properties/bbox")
 
 ### bbox Type
 
@@ -44,9 +44,9 @@ merged type ([Details](models-definitions-bbox.md))
 
 any of
 
-*   [Untitled array in undefined](models-definitions-bbox2d.md "check type definition")
+*   [Untitled array in War Room Models](models-definitions-bbox2d.md "check type definition")
 
-*   [Untitled array in undefined](models-definitions-bbox3d.md "check type definition")
+*   [Untitled array in War Room Models](models-definitions-bbox3d.md "check type definition")
 
 ## coordinates
 
@@ -62,7 +62,7 @@ Position
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-position.md "undefined#/definitions/Point/properties/coordinates")
+*   defined in: [War Room Models](models-definitions-position.md "WarRoomModels#/definitions/Point/properties/coordinates")
 
 ### coordinates Type
 
@@ -80,7 +80,7 @@ Specifies the type of GeoJSON object.
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-point-properties-type.md "undefined#/definitions/Point/properties/type")
+*   defined in: [War Room Models](models-definitions-point-properties-type.md "WarRoomModels#/definitions/Point/properties/type")
 
 ### type Type
 

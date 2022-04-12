@@ -1,10 +1,10 @@
-# Untitled array in undefined Schema
+# Blufor Schema
 
 ```txt
-undefined#/definitions/OperationFile/properties/coalitions/properties/blufor
+Blufor#/definitions/OperationFile/properties/coalitions/properties/blufor
 ```
 
-
+Operation Blufor Coalition
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
@@ -13,3 +13,17 @@ undefined#/definitions/OperationFile/properties/coalitions/properties/blufor
 ## blufor Type
 
 `string[]`
+
+## blufor Constraints
+
+**unknown format**: the value of this string must follow the format: `iso-31661-alpha-2`
+
+## blufor Examples
+
+```json
+"US"
+```
+
+```json
+"GE"
+```

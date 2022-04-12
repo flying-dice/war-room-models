@@ -1,7 +1,7 @@
-# Untitled schema Schema
+# Untitled undefined type in War Room Models Schema
 
 ```txt
-undefined#/definitions/Installation/properties/location
+WarRoomModels#/definitions/Installation/properties/location
 ```
 
 

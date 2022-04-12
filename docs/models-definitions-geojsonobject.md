@@ -1,7 +1,7 @@
-# Untitled object in undefined Schema
+# Untitled object in War Room Models Schema
 
 ```txt
-undefined#/definitions/GeoJSONObject
+WarRoomModels#/definitions/GeoJSONObject
 ```
 
 GeoJSON Object
@@ -18,10 +18,10 @@ GeoJSON Object
 
 # GeoJSONObject Properties
 
-| Property      | Type     | Required | Nullable       | Defined by                                                                                                                    |
-| :------------ | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------- |
-| [bbox](#bbox) | Merged   | Optional | cannot be null | [Untitled schema](models-definitions-bbox.md "undefined#/definitions/GeoJSONObject/properties/bbox")                          |
-| [type](#type) | `string` | Required | cannot be null | [Untitled schema](models-definitions-geojsonobject-properties-type.md "undefined#/definitions/GeoJSONObject/properties/type") |
+| Property      | Type     | Required | Nullable       | Defined by                                                                                                                        |
+| :------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------- |
+| [bbox](#bbox) | Merged   | Optional | cannot be null | [War Room Models](models-definitions-bbox.md "WarRoomModels#/definitions/GeoJSONObject/properties/bbox")                          |
+| [type](#type) | `string` | Required | cannot be null | [War Room Models](models-definitions-geojsonobject-properties-type.md "WarRoomModels#/definitions/GeoJSONObject/properties/type") |
 
 ## bbox
 
@@ -35,7 +35,7 @@ Bounding box of the coordinate range of the object's Geometries, Features, or Fe
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-bbox.md "undefined#/definitions/GeoJSONObject/properties/bbox")
+*   defined in: [War Room Models](models-definitions-bbox.md "WarRoomModels#/definitions/GeoJSONObject/properties/bbox")
 
 ### bbox Type
 
@@ -43,9 +43,9 @@ merged type ([Details](models-definitions-bbox.md))
 
 any of
 
-*   [Untitled array in undefined](models-definitions-bbox2d.md "check type definition")
+*   [Untitled array in War Room Models](models-definitions-bbox2d.md "check type definition")
 
-*   [Untitled array in undefined](models-definitions-bbox3d.md "check type definition")
+*   [Untitled array in War Room Models](models-definitions-bbox3d.md "check type definition")
 
 ## type
 
@@ -59,7 +59,7 @@ Specifies the type of GeoJSON object.
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-geojsonobject-properties-type.md "undefined#/definitions/GeoJSONObject/properties/type")
+*   defined in: [War Room Models](models-definitions-geojsonobject-properties-type.md "WarRoomModels#/definitions/GeoJSONObject/properties/type")
 
 ### type Type
 

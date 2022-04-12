@@ -1,7 +1,7 @@
-# Untitled array in undefined Schema
+# Untitled array in War Room Models Schema
 
 ```txt
-undefined#/definitions/BBox/anyOf/0
+WarRoomModels#/definitions/BBox/anyOf/0
 ```
 
 Bounding box

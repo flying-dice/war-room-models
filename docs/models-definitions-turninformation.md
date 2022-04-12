@@ -1,7 +1,7 @@
-# Untitled object in undefined Schema
+# Untitled object in War Room Models Schema
 
 ```txt
-undefined#/definitions/TurnInformation
+WarRoomModels#/definitions/TurnInformation
 ```
 
 
@@ -16,10 +16,10 @@ undefined#/definitions/TurnInformation
 
 # TurnInformation Properties
 
-| Property                | Type     | Required | Nullable       | Defined by                                                                                                                                  |
-| :---------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
-| [timestamp](#timestamp) | `string` | Required | cannot be null | [Untitled schema](models-definitions-turninformation-properties-timestamp.md "undefined#/definitions/TurnInformation/properties/timestamp") |
-| [turn](#turn)           | `number` | Required | cannot be null | [Untitled schema](models-definitions-turninformation-properties-turn.md "undefined#/definitions/TurnInformation/properties/turn")           |
+| Property                | Type     | Required | Nullable       | Defined by                                                                                                                                      |
+| :---------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------- |
+| [timestamp](#timestamp) | `string` | Required | cannot be null | [War Room Models](models-definitions-turninformation-properties-timestamp.md "WarRoomModels#/definitions/TurnInformation/properties/timestamp") |
+| [turn](#turn)           | `number` | Required | cannot be null | [War Room Models](models-definitions-turninformation-properties-turn.md "WarRoomModels#/definitions/TurnInformation/properties/turn")           |
 
 ## timestamp
 
@@ -33,7 +33,7 @@ undefined#/definitions/TurnInformation
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-turninformation-properties-timestamp.md "undefined#/definitions/TurnInformation/properties/timestamp")
+*   defined in: [War Room Models](models-definitions-turninformation-properties-timestamp.md "WarRoomModels#/definitions/TurnInformation/properties/timestamp")
 
 ### timestamp Type
 
@@ -55,7 +55,7 @@ undefined#/definitions/TurnInformation
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-turninformation-properties-turn.md "undefined#/definitions/TurnInformation/properties/turn")
+*   defined in: [War Room Models](models-definitions-turninformation-properties-turn.md "WarRoomModels#/definitions/TurnInformation/properties/turn")
 
 ### turn Type
 

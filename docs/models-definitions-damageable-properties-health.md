@@ -1,7 +1,7 @@
-# Untitled number in undefined Schema
+# Untitled number in War Room Models Schema
 
 ```txt
-undefined#/definitions/Damageable/properties/health
+WarRoomModels#/definitions/Damageable/properties/health
 ```
 
 

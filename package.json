@@ -26,7 +26,7 @@
     "prettier": "prettier . --write",
     "build": "rimraf dist && tsc",
     "postbuild": "npm run generate:json-schema && npm run generate:docs",
-    "generate:json-schema": "ts-json-schema-generator --path 'src/**/*.ts' --out 'schema.json' && node ./scripts/compile-schema.js",
+    "generate:json-schema": "ts-json-schema-generator --id WarRoomModels --path 'src/**/*.ts' --out 'schema.json' && node ./scripts/compile-schema.js",
     "generate:docs": "rimraf docs && node ./scripts/prepare-docs-schema.js && jsonschema2md -d .schema && mv out docs",
     "semantic-release": "semantic-release"
   },

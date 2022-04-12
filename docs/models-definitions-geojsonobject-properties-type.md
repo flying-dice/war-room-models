@@ -1,7 +1,7 @@
-# Untitled string in undefined Schema
+# Untitled string in War Room Models Schema
 
 ```txt
-undefined#/definitions/GeoJSONObject/properties/type
+WarRoomModels#/definitions/GeoJSONObject/properties/type
 ```
 
 Specifies the type of GeoJSON object.

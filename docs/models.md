@@ -1,37 +1,37 @@
-# Untitled schema Schema
+# War Room Models Schema
 
 ```txt
-undefined
+WarRoomModels
 ```
 
-
+All War Room Data Models
 
 | Abstract               | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                      |
 | :--------------------- | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :-------------------------------------------------------------- |
 | Cannot be instantiated | Yes        | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [models.schema.json](models.schema.json "open original schema") |
 
-## Untitled schema Type
+## War Room Models Type
 
-unknown
+unknown ([War Room Models](models.md))
 
-# Untitled schema Definitions
+# War Room Models Definitions
 
 ## Definitions group AirUnit
 
 Reference this group by using
 
 ```json
-{"$ref":"undefined#/definitions/AirUnit"}
+{"$ref":"WarRoomModels#/definitions/AirUnit"}
 ```
 
-| Property            | Type     | Required | Nullable       | Defined by                                                                                                              |
-| :------------------ | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------- |
-| [country](#country) | `string` | Required | cannot be null | [Untitled schema](models-definitions-airunit-properties-country.md "undefined#/definitions/AirUnit/properties/country") |
-| [health](#health)   | `number` | Required | cannot be null | [Untitled schema](models-definitions-airunit-properties-health.md "undefined#/definitions/AirUnit/properties/health")   |
-| [id](#id)           | `string` | Required | cannot be null | [Untitled schema](models-definitions-airunit-properties-id.md "undefined#/definitions/AirUnit/properties/id")           |
-| [name](#name)       | `string` | Required | cannot be null | [Untitled schema](models-definitions-airunit-properties-name.md "undefined#/definitions/AirUnit/properties/name")       |
-| [size](#size)       | `number` | Required | cannot be null | [Untitled schema](models-definitions-airunit-properties-size.md "undefined#/definitions/AirUnit/properties/size")       |
-| [type](#type)       | `string` | Required | cannot be null | [Untitled schema](models-definitions-airunit-properties-type.md "undefined#/definitions/AirUnit/properties/type")       |
+| Property            | Type     | Required | Nullable       | Defined by                                                                                                                  |
+| :------------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------- |
+| [country](#country) | `string` | Required | cannot be null | [War Room Models](models-definitions-airunit-properties-country.md "WarRoomModels#/definitions/AirUnit/properties/country") |
+| [health](#health)   | `number` | Required | cannot be null | [War Room Models](models-definitions-airunit-properties-health.md "WarRoomModels#/definitions/AirUnit/properties/health")   |
+| [id](#id)           | `string` | Required | cannot be null | [War Room Models](models-definitions-airunit-properties-id.md "WarRoomModels#/definitions/AirUnit/properties/id")           |
+| [name](#name)       | `string` | Required | cannot be null | [War Room Models](models-definitions-airunit-properties-name.md "WarRoomModels#/definitions/AirUnit/properties/name")       |
+| [size](#size)       | `number` | Required | cannot be null | [War Room Models](models-definitions-airunit-properties-size.md "WarRoomModels#/definitions/AirUnit/properties/size")       |
+| [type](#type)       | `string` | Required | cannot be null | [War Room Models](models-definitions-airunit-properties-type.md "WarRoomModels#/definitions/AirUnit/properties/type")       |
 
 ### country
 
@@ -45,7 +45,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-airunit-properties-country.md "undefined#/definitions/AirUnit/properties/country")
+*   defined in: [War Room Models](models-definitions-airunit-properties-country.md "WarRoomModels#/definitions/AirUnit/properties/country")
 
 #### country Type
 
@@ -63,7 +63,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-airunit-properties-health.md "undefined#/definitions/AirUnit/properties/health")
+*   defined in: [War Room Models](models-definitions-airunit-properties-health.md "WarRoomModels#/definitions/AirUnit/properties/health")
 
 #### health Type
 
@@ -81,7 +81,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-airunit-properties-id.md "undefined#/definitions/AirUnit/properties/id")
+*   defined in: [War Room Models](models-definitions-airunit-properties-id.md "WarRoomModels#/definitions/AirUnit/properties/id")
 
 #### id Type
 
@@ -99,7 +99,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-airunit-properties-name.md "undefined#/definitions/AirUnit/properties/name")
+*   defined in: [War Room Models](models-definitions-airunit-properties-name.md "WarRoomModels#/definitions/AirUnit/properties/name")
 
 #### name Type
 
@@ -117,7 +117,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-airunit-properties-size.md "undefined#/definitions/AirUnit/properties/size")
+*   defined in: [War Room Models](models-definitions-airunit-properties-size.md "WarRoomModels#/definitions/AirUnit/properties/size")
 
 #### size Type
 
@@ -135,7 +135,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-airunit-properties-type.md "undefined#/definitions/AirUnit/properties/type")
+*   defined in: [War Room Models](models-definitions-airunit-properties-type.md "WarRoomModels#/definitions/AirUnit/properties/type")
 
 #### type Type
 
@@ -146,7 +146,7 @@ Reference this group by using
 Reference this group by using
 
 ```json
-{"$ref":"undefined#/definitions/BBox"}
+{"$ref":"WarRoomModels#/definitions/BBox"}
 ```
 
 | Property | Type | Required | Nullable | Defined by |
@@ -157,7 +157,7 @@ Reference this group by using
 Reference this group by using
 
 ```json
-{"$ref":"undefined#/definitions/BBox2d"}
+{"$ref":"WarRoomModels#/definitions/BBox2d"}
 ```
 
 | Property | Type | Required | Nullable | Defined by |
@@ -168,7 +168,7 @@ Reference this group by using
 Reference this group by using
 
 ```json
-{"$ref":"undefined#/definitions/BBox3d"}
+{"$ref":"WarRoomModels#/definitions/BBox3d"}
 ```
 
 | Property | Type | Required | Nullable | Defined by |
@@ -179,7 +179,7 @@ Reference this group by using
 Reference this group by using
 
 ```json
-{"$ref":"undefined#/definitions/Coalition"}
+{"$ref":"WarRoomModels#/definitions/Coalition"}
 ```
 
 | Property | Type | Required | Nullable | Defined by |
@@ -190,12 +190,12 @@ Reference this group by using
 Reference this group by using
 
 ```json
-{"$ref":"undefined#/definitions/Damageable"}
+{"$ref":"WarRoomModels#/definitions/Damageable"}
 ```
 
-| Property            | Type     | Required | Nullable       | Defined by                                                                                                                  |
-| :------------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------- |
-| [health](#health-1) | `number` | Required | cannot be null | [Untitled schema](models-definitions-damageable-properties-health.md "undefined#/definitions/Damageable/properties/health") |
+| Property            | Type     | Required | Nullable       | Defined by                                                                                                                      |
+| :------------------ | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------ |
+| [health](#health-1) | `number` | Required | cannot be null | [War Room Models](models-definitions-damageable-properties-health.md "WarRoomModels#/definitions/Damageable/properties/health") |
 
 ### health
 
@@ -209,7 +209,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-damageable-properties-health.md "undefined#/definitions/Damageable/properties/health")
+*   defined in: [War Room Models](models-definitions-damageable-properties-health.md "WarRoomModels#/definitions/Damageable/properties/health")
 
 #### health Type
 
@@ -220,13 +220,13 @@ Reference this group by using
 Reference this group by using
 
 ```json
-{"$ref":"undefined#/definitions/Entity"}
+{"$ref":"WarRoomModels#/definitions/Entity"}
 ```
 
-| Property        | Type     | Required | Nullable       | Defined by                                                                                                      |
-| :-------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------- |
-| [id](#id-1)     | `string` | Required | cannot be null | [Untitled schema](models-definitions-entity-properties-id.md "undefined#/definitions/Entity/properties/id")     |
-| [name](#name-1) | `string` | Required | cannot be null | [Untitled schema](models-definitions-entity-properties-name.md "undefined#/definitions/Entity/properties/name") |
+| Property        | Type     | Required | Nullable       | Defined by                                                                                                          |
+| :-------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------ |
+| [id](#id-1)     | `string` | Required | cannot be null | [War Room Models](models-definitions-entity-properties-id.md "WarRoomModels#/definitions/Entity/properties/id")     |
+| [name](#name-1) | `string` | Required | cannot be null | [War Room Models](models-definitions-entity-properties-name.md "WarRoomModels#/definitions/Entity/properties/name") |
 
 ### id
 
@@ -240,7 +240,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-entity-properties-id.md "undefined#/definitions/Entity/properties/id")
+*   defined in: [War Room Models](models-definitions-entity-properties-id.md "WarRoomModels#/definitions/Entity/properties/id")
 
 #### id Type
 
@@ -258,7 +258,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-entity-properties-name.md "undefined#/definitions/Entity/properties/name")
+*   defined in: [War Room Models](models-definitions-entity-properties-name.md "WarRoomModels#/definitions/Entity/properties/name")
 
 #### name Type
 
@@ -269,16 +269,16 @@ Reference this group by using
 Reference this group by using
 
 ```json
-{"$ref":"undefined#/definitions/Feature<Point>"}
+{"$ref":"WarRoomModels#/definitions/Feature<Point>"}
 ```
 
-| Property                  | Type     | Required | Nullable       | Defined by                                                                                                                    |
-| :------------------------ | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------- |
-| [bbox](#bbox)             | Merged   | Optional | cannot be null | [Untitled schema](models-definitions-featurepoint-properties-bbox.md "undefined#/definitions/Feature<Point>/properties/bbox") |
-| [geometry](#geometry)     | `object` | Required | cannot be null | [Untitled schema](models-definitions-point.md "undefined#/definitions/Feature<Point>/properties/geometry")                    |
-| [id](#id-2)               | Multiple | Optional | cannot be null | [Untitled schema](models-definitions-featurepoint-properties-id.md "undefined#/definitions/Feature<Point>/properties/id")     |
-| [properties](#properties) | Merged   | Required | cannot be null | [Untitled schema](models-definitions-properties.md "undefined#/definitions/Feature<Point>/properties/properties")             |
-| [type](#type-1)           | `string` | Required | cannot be null | [Untitled schema](models-definitions-featurepoint-properties-type.md "undefined#/definitions/Feature<Point>/properties/type") |
+| Property                  | Type     | Required | Nullable       | Defined by                                                                                                                        |
+| :------------------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------- |
+| [bbox](#bbox)             | Merged   | Optional | cannot be null | [War Room Models](models-definitions-featurepoint-properties-bbox.md "WarRoomModels#/definitions/Feature<Point>/properties/bbox") |
+| [geometry](#geometry)     | `object` | Required | cannot be null | [War Room Models](models-definitions-point.md "WarRoomModels#/definitions/Feature<Point>/properties/geometry")                    |
+| [id](#id-2)               | Multiple | Optional | cannot be null | [War Room Models](models-definitions-featurepoint-properties-id.md "WarRoomModels#/definitions/Feature<Point>/properties/id")     |
+| [properties](#properties) | Merged   | Required | cannot be null | [War Room Models](models-definitions-properties.md "WarRoomModels#/definitions/Feature<Point>/properties/properties")             |
+| [type](#type-1)           | `string` | Required | cannot be null | [War Room Models](models-definitions-featurepoint-properties-type.md "WarRoomModels#/definitions/Feature<Point>/properties/type") |
 
 ### bbox
 
@@ -292,7 +292,7 @@ Bounding box of the coordinate range of the object's Geometries, Features, or Fe
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-featurepoint-properties-bbox.md "undefined#/definitions/Feature<Point>/properties/bbox")
+*   defined in: [War Room Models](models-definitions-featurepoint-properties-bbox.md "WarRoomModels#/definitions/Feature<Point>/properties/bbox")
 
 #### bbox Type
 
@@ -300,9 +300,9 @@ merged type ([Details](models-definitions-featurepoint-properties-bbox.md))
 
 any of
 
-*   [Untitled array in undefined](models-definitions-bbox2d.md "check type definition")
+*   [Untitled array in War Room Models](models-definitions-bbox2d.md "check type definition")
 
-*   [Untitled array in undefined](models-definitions-bbox3d.md "check type definition")
+*   [Untitled array in War Room Models](models-definitions-bbox3d.md "check type definition")
 
 ### geometry
 
@@ -318,7 +318,7 @@ Point Geometry Object
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-point.md "undefined#/definitions/Feature<Point>/properties/geometry")
+*   defined in: [War Room Models](models-definitions-point.md "WarRoomModels#/definitions/Feature<Point>/properties/geometry")
 
 #### geometry Type
 
@@ -338,7 +338,7 @@ Id
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-featurepoint-properties-id.md "undefined#/definitions/Feature<Point>/properties/id")
+*   defined in: [War Room Models](models-definitions-featurepoint-properties-id.md "WarRoomModels#/definitions/Feature<Point>/properties/id")
 
 #### id Type
 
@@ -358,7 +358,7 @@ Properties
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-properties.md "undefined#/definitions/Feature<Point>/properties/properties")
+*   defined in: [War Room Models](models-definitions-properties.md "WarRoomModels#/definitions/Feature<Point>/properties/properties")
 
 #### properties Type
 
@@ -366,9 +366,9 @@ merged type ([Details](models-definitions-properties.md))
 
 any of
 
-*   [Untitled object in undefined](models-definitions-properties-anyof-0.md "check type definition")
+*   [Untitled object in War Room Models](models-definitions-properties-anyof-0.md "check type definition")
 
-*   [Untitled null in undefined](models-definitions-properties-anyof-1.md "check type definition")
+*   [Untitled null in War Room Models](models-definitions-properties-anyof-1.md "check type definition")
 
 ### type
 
@@ -382,7 +382,7 @@ Specifies the type of GeoJSON object.
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-featurepoint-properties-type.md "undefined#/definitions/Feature<Point>/properties/type")
+*   defined in: [War Room Models](models-definitions-featurepoint-properties-type.md "WarRoomModels#/definitions/Feature<Point>/properties/type")
 
 #### type Type
 
@@ -401,16 +401,16 @@ Specifies the type of GeoJSON object.
 Reference this group by using
 
 ```json
-{"$ref":"undefined#/definitions/Feature<Polygon>"}
+{"$ref":"WarRoomModels#/definitions/Feature<Polygon>"}
 ```
 
-| Property                    | Type     | Required | Nullable       | Defined by                                                                                                                        |
-| :-------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------- |
-| [bbox](#bbox-1)             | Merged   | Optional | cannot be null | [Untitled schema](models-definitions-featurepolygon-properties-bbox.md "undefined#/definitions/Feature<Polygon>/properties/bbox") |
-| [geometry](#geometry-1)     | `object` | Required | cannot be null | [Untitled schema](models-definitions-polygon.md "undefined#/definitions/Feature<Polygon>/properties/geometry")                    |
-| [id](#id-3)                 | Multiple | Optional | cannot be null | [Untitled schema](models-definitions-featurepolygon-properties-id.md "undefined#/definitions/Feature<Polygon>/properties/id")     |
-| [properties](#properties-1) | Merged   | Required | cannot be null | [Untitled schema](models-definitions-properties.md "undefined#/definitions/Feature<Polygon>/properties/properties")               |
-| [type](#type-2)             | `string` | Required | cannot be null | [Untitled schema](models-definitions-featurepolygon-properties-type.md "undefined#/definitions/Feature<Polygon>/properties/type") |
+| Property                    | Type     | Required | Nullable       | Defined by                                                                                                                            |
+| :-------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------ |
+| [bbox](#bbox-1)             | Merged   | Optional | cannot be null | [War Room Models](models-definitions-featurepolygon-properties-bbox.md "WarRoomModels#/definitions/Feature<Polygon>/properties/bbox") |
+| [geometry](#geometry-1)     | `object` | Required | cannot be null | [War Room Models](models-definitions-polygon.md "WarRoomModels#/definitions/Feature<Polygon>/properties/geometry")                    |
+| [id](#id-3)                 | Multiple | Optional | cannot be null | [War Room Models](models-definitions-featurepolygon-properties-id.md "WarRoomModels#/definitions/Feature<Polygon>/properties/id")     |
+| [properties](#properties-1) | Merged   | Required | cannot be null | [War Room Models](models-definitions-properties.md "WarRoomModels#/definitions/Feature<Polygon>/properties/properties")               |
+| [type](#type-2)             | `string` | Required | cannot be null | [War Room Models](models-definitions-featurepolygon-properties-type.md "WarRoomModels#/definitions/Feature<Polygon>/properties/type") |
 
 ### bbox
 
@@ -424,7 +424,7 @@ Bounding box of the coordinate range of the object's Geometries, Features, or Fe
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-featurepolygon-properties-bbox.md "undefined#/definitions/Feature<Polygon>/properties/bbox")
+*   defined in: [War Room Models](models-definitions-featurepolygon-properties-bbox.md "WarRoomModels#/definitions/Feature<Polygon>/properties/bbox")
 
 #### bbox Type
 
@@ -432,9 +432,9 @@ merged type ([Details](models-definitions-featurepolygon-properties-bbox.md))
 
 any of
 
-*   [Untitled array in undefined](models-definitions-bbox2d.md "check type definition")
+*   [Untitled array in War Room Models](models-definitions-bbox2d.md "check type definition")
 
-*   [Untitled array in undefined](models-definitions-bbox3d.md "check type definition")
+*   [Untitled array in War Room Models](models-definitions-bbox3d.md "check type definition")
 
 ### geometry
 
@@ -450,7 +450,7 @@ Polygon Geometry Object
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-polygon.md "undefined#/definitions/Feature<Polygon>/properties/geometry")
+*   defined in: [War Room Models](models-definitions-polygon.md "WarRoomModels#/definitions/Feature<Polygon>/properties/geometry")
 
 #### geometry Type
 
@@ -470,7 +470,7 @@ Id
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-featurepolygon-properties-id.md "undefined#/definitions/Feature<Polygon>/properties/id")
+*   defined in: [War Room Models](models-definitions-featurepolygon-properties-id.md "WarRoomModels#/definitions/Feature<Polygon>/properties/id")
 
 #### id Type
 
@@ -490,7 +490,7 @@ Properties
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-properties.md "undefined#/definitions/Feature<Polygon>/properties/properties")
+*   defined in: [War Room Models](models-definitions-properties.md "WarRoomModels#/definitions/Feature<Polygon>/properties/properties")
 
 #### properties Type
 
@@ -498,9 +498,9 @@ merged type ([Details](models-definitions-properties.md))
 
 any of
 
-*   [Untitled object in undefined](models-definitions-properties-anyof-0.md "check type definition")
+*   [Untitled object in War Room Models](models-definitions-properties-anyof-0.md "check type definition")
 
-*   [Untitled null in undefined](models-definitions-properties-anyof-1.md "check type definition")
+*   [Untitled null in War Room Models](models-definitions-properties-anyof-1.md "check type definition")
 
 ### type
 
@@ -514,7 +514,7 @@ Specifies the type of GeoJSON object.
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-featurepolygon-properties-type.md "undefined#/definitions/Feature<Polygon>/properties/type")
+*   defined in: [War Room Models](models-definitions-featurepolygon-properties-type.md "WarRoomModels#/definitions/Feature<Polygon>/properties/type")
 
 #### type Type
 
@@ -533,13 +533,13 @@ Specifies the type of GeoJSON object.
 Reference this group by using
 
 ```json
-{"$ref":"undefined#/definitions/GeoJSONObject"}
+{"$ref":"WarRoomModels#/definitions/GeoJSONObject"}
 ```
 
-| Property        | Type     | Required | Nullable       | Defined by                                                                                                                    |
-| :-------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------- |
-| [bbox](#bbox-2) | Merged   | Optional | cannot be null | [Untitled schema](models-definitions-geojsonobject-properties-bbox.md "undefined#/definitions/GeoJSONObject/properties/bbox") |
-| [type](#type-3) | `string` | Required | cannot be null | [Untitled schema](models-definitions-geojsonobject-properties-type.md "undefined#/definitions/GeoJSONObject/properties/type") |
+| Property        | Type     | Required | Nullable       | Defined by                                                                                                                        |
+| :-------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------- |
+| [bbox](#bbox-2) | Merged   | Optional | cannot be null | [War Room Models](models-definitions-geojsonobject-properties-bbox.md "WarRoomModels#/definitions/GeoJSONObject/properties/bbox") |
+| [type](#type-3) | `string` | Required | cannot be null | [War Room Models](models-definitions-geojsonobject-properties-type.md "WarRoomModels#/definitions/GeoJSONObject/properties/type") |
 
 ### bbox
 
@@ -553,7 +553,7 @@ Bounding box of the coordinate range of the object's Geometries, Features, or Fe
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-geojsonobject-properties-bbox.md "undefined#/definitions/GeoJSONObject/properties/bbox")
+*   defined in: [War Room Models](models-definitions-geojsonobject-properties-bbox.md "WarRoomModels#/definitions/GeoJSONObject/properties/bbox")
 
 #### bbox Type
 
@@ -561,9 +561,9 @@ merged type ([Details](models-definitions-geojsonobject-properties-bbox.md))
 
 any of
 
-*   [Untitled array in undefined](models-definitions-bbox2d.md "check type definition")
+*   [Untitled array in War Room Models](models-definitions-bbox2d.md "check type definition")
 
-*   [Untitled array in undefined](models-definitions-bbox3d.md "check type definition")
+*   [Untitled array in War Room Models](models-definitions-bbox3d.md "check type definition")
 
 ### type
 
@@ -577,7 +577,7 @@ Specifies the type of GeoJSON object.
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-geojsonobject-properties-type.md "undefined#/definitions/GeoJSONObject/properties/type")
+*   defined in: [War Room Models](models-definitions-geojsonobject-properties-type.md "WarRoomModels#/definitions/GeoJSONObject/properties/type")
 
 #### type Type
 
@@ -588,13 +588,13 @@ Specifies the type of GeoJSON object.
 Reference this group by using
 
 ```json
-{"$ref":"undefined#/definitions/GeometryObject"}
+{"$ref":"WarRoomModels#/definitions/GeometryObject"}
 ```
 
-| Property        | Type     | Required | Nullable       | Defined by                                                                                                                      |
-| :-------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------ |
-| [bbox](#bbox-3) | Merged   | Optional | cannot be null | [Untitled schema](models-definitions-geometryobject-properties-bbox.md "undefined#/definitions/GeometryObject/properties/bbox") |
-| [type](#type-4) | `string` | Required | cannot be null | [Untitled schema](models-definitions-geometryobject-properties-type.md "undefined#/definitions/GeometryObject/properties/type") |
+| Property        | Type     | Required | Nullable       | Defined by                                                                                                                          |
+| :-------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
+| [bbox](#bbox-3) | Merged   | Optional | cannot be null | [War Room Models](models-definitions-geometryobject-properties-bbox.md "WarRoomModels#/definitions/GeometryObject/properties/bbox") |
+| [type](#type-4) | `string` | Required | cannot be null | [War Room Models](models-definitions-geometryobject-properties-type.md "WarRoomModels#/definitions/GeometryObject/properties/type") |
 
 ### bbox
 
@@ -608,7 +608,7 @@ Bounding box of the coordinate range of the object's Geometries, Features, or Fe
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-geometryobject-properties-bbox.md "undefined#/definitions/GeometryObject/properties/bbox")
+*   defined in: [War Room Models](models-definitions-geometryobject-properties-bbox.md "WarRoomModels#/definitions/GeometryObject/properties/bbox")
 
 #### bbox Type
 
@@ -616,9 +616,9 @@ merged type ([Details](models-definitions-geometryobject-properties-bbox.md))
 
 any of
 
-*   [Untitled array in undefined](models-definitions-bbox2d.md "check type definition")
+*   [Untitled array in War Room Models](models-definitions-bbox2d.md "check type definition")
 
-*   [Untitled array in undefined](models-definitions-bbox3d.md "check type definition")
+*   [Untitled array in War Room Models](models-definitions-bbox3d.md "check type definition")
 
 ### type
 
@@ -634,7 +634,7 @@ GeometryTypes
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-geometryobject-properties-type.md "undefined#/definitions/GeometryObject/properties/type")
+*   defined in: [War Room Models](models-definitions-geometryobject-properties-type.md "WarRoomModels#/definitions/GeometryObject/properties/type")
 
 #### type Type
 
@@ -659,7 +659,7 @@ GeometryTypes
 Reference this group by using
 
 ```json
-{"$ref":"undefined#/definitions/GeometryTypes"}
+{"$ref":"WarRoomModels#/definitions/GeometryTypes"}
 ```
 
 | Property | Type | Required | Nullable | Defined by |
@@ -670,12 +670,12 @@ Reference this group by using
 Reference this group by using
 
 ```json
-{"$ref":"undefined#/definitions/GridLocatable"}
+{"$ref":"WarRoomModels#/definitions/GridLocatable"}
 ```
 
-| Property              | Type     | Required | Nullable       | Defined by                                                                                                                            |
-| :-------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------ |
-| [location](#location) | `object` | Required | cannot be null | [Untitled schema](models-definitions-gridlocatable-properties-location.md "undefined#/definitions/GridLocatable/properties/location") |
+| Property              | Type     | Required | Nullable       | Defined by                                                                                                                                |
+| :-------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------- |
+| [location](#location) | `object` | Required | cannot be null | [War Room Models](models-definitions-gridlocatable-properties-location.md "WarRoomModels#/definitions/GridLocatable/properties/location") |
 
 ### location
 
@@ -689,7 +689,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-gridlocatable-properties-location.md "undefined#/definitions/GridLocatable/properties/location")
+*   defined in: [War Room Models](models-definitions-gridlocatable-properties-location.md "WarRoomModels#/definitions/GridLocatable/properties/location")
 
 #### location Type
 
@@ -700,18 +700,18 @@ Reference this group by using
 Reference this group by using
 
 ```json
-{"$ref":"undefined#/definitions/GroundUnit"}
+{"$ref":"WarRoomModels#/definitions/GroundUnit"}
 ```
 
-| Property                | Type     | Required | Nullable       | Defined by                                                                                                                      |
-| :---------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------ |
-| [country](#country-1)   | `string` | Required | cannot be null | [Untitled schema](models-definitions-groundunit-properties-country.md "undefined#/definitions/GroundUnit/properties/country")   |
-| [health](#health-2)     | `number` | Required | cannot be null | [Untitled schema](models-definitions-groundunit-properties-health.md "undefined#/definitions/GroundUnit/properties/health")     |
-| [id](#id-4)             | `string` | Required | cannot be null | [Untitled schema](models-definitions-groundunit-properties-id.md "undefined#/definitions/GroundUnit/properties/id")             |
-| [location](#location-1) | `object` | Required | cannot be null | [Untitled schema](models-definitions-groundunit-properties-location.md "undefined#/definitions/GroundUnit/properties/location") |
-| [name](#name-2)         | `string` | Required | cannot be null | [Untitled schema](models-definitions-groundunit-properties-name.md "undefined#/definitions/GroundUnit/properties/name")         |
-| [size](#size-1)         | `number` | Required | cannot be null | [Untitled schema](models-definitions-groundunit-properties-size.md "undefined#/definitions/GroundUnit/properties/size")         |
-| [type](#type-5)         | `string` | Required | cannot be null | [Untitled schema](models-definitions-groundunit-properties-type.md "undefined#/definitions/GroundUnit/properties/type")         |
+| Property                | Type     | Required | Nullable       | Defined by                                                                                                                          |
+| :---------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
+| [country](#country-1)   | `string` | Required | cannot be null | [War Room Models](models-definitions-groundunit-properties-country.md "WarRoomModels#/definitions/GroundUnit/properties/country")   |
+| [health](#health-2)     | `number` | Required | cannot be null | [War Room Models](models-definitions-groundunit-properties-health.md "WarRoomModels#/definitions/GroundUnit/properties/health")     |
+| [id](#id-4)             | `string` | Required | cannot be null | [War Room Models](models-definitions-groundunit-properties-id.md "WarRoomModels#/definitions/GroundUnit/properties/id")             |
+| [location](#location-1) | `object` | Required | cannot be null | [War Room Models](models-definitions-groundunit-properties-location.md "WarRoomModels#/definitions/GroundUnit/properties/location") |
+| [name](#name-2)         | `string` | Required | cannot be null | [War Room Models](models-definitions-groundunit-properties-name.md "WarRoomModels#/definitions/GroundUnit/properties/name")         |
+| [size](#size-1)         | `number` | Required | cannot be null | [War Room Models](models-definitions-groundunit-properties-size.md "WarRoomModels#/definitions/GroundUnit/properties/size")         |
+| [type](#type-5)         | `string` | Required | cannot be null | [War Room Models](models-definitions-groundunit-properties-type.md "WarRoomModels#/definitions/GroundUnit/properties/type")         |
 
 ### country
 
@@ -725,7 +725,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-groundunit-properties-country.md "undefined#/definitions/GroundUnit/properties/country")
+*   defined in: [War Room Models](models-definitions-groundunit-properties-country.md "WarRoomModels#/definitions/GroundUnit/properties/country")
 
 #### country Type
 
@@ -743,7 +743,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-groundunit-properties-health.md "undefined#/definitions/GroundUnit/properties/health")
+*   defined in: [War Room Models](models-definitions-groundunit-properties-health.md "WarRoomModels#/definitions/GroundUnit/properties/health")
 
 #### health Type
 
@@ -761,7 +761,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-groundunit-properties-id.md "undefined#/definitions/GroundUnit/properties/id")
+*   defined in: [War Room Models](models-definitions-groundunit-properties-id.md "WarRoomModels#/definitions/GroundUnit/properties/id")
 
 #### id Type
 
@@ -779,7 +779,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-groundunit-properties-location.md "undefined#/definitions/GroundUnit/properties/location")
+*   defined in: [War Room Models](models-definitions-groundunit-properties-location.md "WarRoomModels#/definitions/GroundUnit/properties/location")
 
 #### location Type
 
@@ -797,7 +797,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-groundunit-properties-name.md "undefined#/definitions/GroundUnit/properties/name")
+*   defined in: [War Room Models](models-definitions-groundunit-properties-name.md "WarRoomModels#/definitions/GroundUnit/properties/name")
 
 #### name Type
 
@@ -815,7 +815,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-groundunit-properties-size.md "undefined#/definitions/GroundUnit/properties/size")
+*   defined in: [War Room Models](models-definitions-groundunit-properties-size.md "WarRoomModels#/definitions/GroundUnit/properties/size")
 
 #### size Type
 
@@ -833,7 +833,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-groundunit-properties-type.md "undefined#/definitions/GroundUnit/properties/type")
+*   defined in: [War Room Models](models-definitions-groundunit-properties-type.md "WarRoomModels#/definitions/GroundUnit/properties/type")
 
 #### type Type
 
@@ -844,7 +844,7 @@ Reference this group by using
 Reference this group by using
 
 ```json
-{"$ref":"undefined#/definitions/Id"}
+{"$ref":"WarRoomModels#/definitions/Id"}
 ```
 
 | Property | Type | Required | Nullable | Defined by |
@@ -855,17 +855,17 @@ Reference this group by using
 Reference this group by using
 
 ```json
-{"$ref":"undefined#/definitions/Installation"}
+{"$ref":"WarRoomModels#/definitions/Installation"}
 ```
 
-| Property                | Type          | Required | Nullable       | Defined by                                                                                                                          |
-| :---------------------- | :------------ | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
-| [country](#country-2)   | `string`      | Required | cannot be null | [Untitled schema](models-definitions-installation-properties-country.md "undefined#/definitions/Installation/properties/country")   |
-| [health](#health-3)     | `number`      | Required | cannot be null | [Untitled schema](models-definitions-installation-properties-health.md "undefined#/definitions/Installation/properties/health")     |
-| [id](#id-5)             | `string`      | Required | cannot be null | [Untitled schema](models-definitions-installation-properties-id.md "undefined#/definitions/Installation/properties/id")             |
-| [location](#location-2) | Not specified | Required | cannot be null | [Untitled schema](models-definitions-installation-properties-location.md "undefined#/definitions/Installation/properties/location") |
-| [name](#name-3)         | `string`      | Required | cannot be null | [Untitled schema](models-definitions-installation-properties-name.md "undefined#/definitions/Installation/properties/name")         |
-| [type](#type-6)         | `string`      | Required | cannot be null | [Untitled schema](models-definitions-installation-properties-type.md "undefined#/definitions/Installation/properties/type")         |
+| Property                | Type          | Required | Nullable       | Defined by                                                                                                                              |
+| :---------------------- | :------------ | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
+| [country](#country-2)   | `string`      | Required | cannot be null | [War Room Models](models-definitions-installation-properties-country.md "WarRoomModels#/definitions/Installation/properties/country")   |
+| [health](#health-3)     | `number`      | Required | cannot be null | [War Room Models](models-definitions-installation-properties-health.md "WarRoomModels#/definitions/Installation/properties/health")     |
+| [id](#id-5)             | `string`      | Required | cannot be null | [War Room Models](models-definitions-installation-properties-id.md "WarRoomModels#/definitions/Installation/properties/id")             |
+| [location](#location-2) | Not specified | Required | cannot be null | [War Room Models](models-definitions-installation-properties-location.md "WarRoomModels#/definitions/Installation/properties/location") |
+| [name](#name-3)         | `string`      | Required | cannot be null | [War Room Models](models-definitions-installation-properties-name.md "WarRoomModels#/definitions/Installation/properties/name")         |
+| [type](#type-6)         | `string`      | Required | cannot be null | [War Room Models](models-definitions-installation-properties-type.md "WarRoomModels#/definitions/Installation/properties/type")         |
 
 ### country
 
@@ -879,7 +879,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-installation-properties-country.md "undefined#/definitions/Installation/properties/country")
+*   defined in: [War Room Models](models-definitions-installation-properties-country.md "WarRoomModels#/definitions/Installation/properties/country")
 
 #### country Type
 
@@ -897,7 +897,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-installation-properties-health.md "undefined#/definitions/Installation/properties/health")
+*   defined in: [War Room Models](models-definitions-installation-properties-health.md "WarRoomModels#/definitions/Installation/properties/health")
 
 #### health Type
 
@@ -915,7 +915,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-installation-properties-id.md "undefined#/definitions/Installation/properties/id")
+*   defined in: [War Room Models](models-definitions-installation-properties-id.md "WarRoomModels#/definitions/Installation/properties/id")
 
 #### id Type
 
@@ -933,7 +933,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-installation-properties-location.md "undefined#/definitions/Installation/properties/location")
+*   defined in: [War Room Models](models-definitions-installation-properties-location.md "WarRoomModels#/definitions/Installation/properties/location")
 
 #### location Type
 
@@ -951,7 +951,7 @@ unknown
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-installation-properties-name.md "undefined#/definitions/Installation/properties/name")
+*   defined in: [War Room Models](models-definitions-installation-properties-name.md "WarRoomModels#/definitions/Installation/properties/name")
 
 #### name Type
 
@@ -969,7 +969,7 @@ unknown
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-installation-properties-type.md "undefined#/definitions/Installation/properties/type")
+*   defined in: [War Room Models](models-definitions-installation-properties-type.md "WarRoomModels#/definitions/Installation/properties/type")
 
 #### type Type
 
@@ -980,12 +980,12 @@ unknown
 Reference this group by using
 
 ```json
-{"$ref":"undefined#/definitions/Locatable"}
+{"$ref":"WarRoomModels#/definitions/Locatable"}
 ```
 
-| Property                | Type          | Required | Nullable       | Defined by                                                                                                                    |
-| :---------------------- | :------------ | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------- |
-| [location](#location-3) | Not specified | Required | cannot be null | [Untitled schema](models-definitions-locatable-properties-location.md "undefined#/definitions/Locatable/properties/location") |
+| Property                | Type          | Required | Nullable       | Defined by                                                                                                                        |
+| :---------------------- | :------------ | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------- |
+| [location](#location-3) | Not specified | Required | cannot be null | [War Room Models](models-definitions-locatable-properties-location.md "WarRoomModels#/definitions/Locatable/properties/location") |
 
 ### location
 
@@ -999,7 +999,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-locatable-properties-location.md "undefined#/definitions/Locatable/properties/location")
+*   defined in: [War Room Models](models-definitions-locatable-properties-location.md "WarRoomModels#/definitions/Locatable/properties/location")
 
 #### location Type
 
@@ -1010,25 +1010,25 @@ unknown
 Reference this group by using
 
 ```json
-{"$ref":"undefined#/definitions/OperationFile"}
+{"$ref":"OperationFile#/definitions/OperationFile"}
 ```
 
-| Property                        | Type          | Required | Nullable       | Defined by                                                                                                                                      |
-| :------------------------------ | :------------ | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------- |
-| [airUnits](#airunits)           | `array`       | Required | cannot be null | [Untitled schema](models-definitions-operationfile-properties-airunits.md "undefined#/definitions/OperationFile/properties/airUnits")           |
-| [area](#area)                   | Not specified | Required | cannot be null | [Untitled schema](models-definitions-operationfile-properties-area.md "undefined#/definitions/OperationFile/properties/area")                   |
-| [coalitions](#coalitions)       | `object`      | Required | cannot be null | [Untitled schema](models-definitions-operationfile-properties-coalitions.md "undefined#/definitions/OperationFile/properties/coalitions")       |
-| [description](#description)     | `string`      | Required | cannot be null | [Untitled schema](models-definitions-operationfile-properties-description.md "undefined#/definitions/OperationFile/properties/description")     |
-| [groundUnits](#groundunits)     | `array`       | Required | cannot be null | [Untitled schema](models-definitions-operationfile-properties-groundunits.md "undefined#/definitions/OperationFile/properties/groundUnits")     |
-| [id](#id-6)                     | `string`      | Required | cannot be null | [Untitled schema](models-definitions-operationfile-properties-id.md "undefined#/definitions/OperationFile/properties/id")                       |
-| [installations](#installations) | `array`       | Required | cannot be null | [Untitled schema](models-definitions-operationfile-properties-installations.md "undefined#/definitions/OperationFile/properties/installations") |
-| [name](#name-4)                 | `string`      | Required | cannot be null | [Untitled schema](models-definitions-operationfile-properties-name.md "undefined#/definitions/OperationFile/properties/name")                   |
-| [startDate](#startdate)         | `string`      | Required | cannot be null | [Untitled schema](models-definitions-operationfile-properties-startdate.md "undefined#/definitions/OperationFile/properties/startDate")         |
-| [staticUnits](#staticunits)     | `array`       | Required | cannot be null | [Untitled schema](models-definitions-operationfile-properties-staticunits.md "undefined#/definitions/OperationFile/properties/staticUnits")     |
+| Property                        | Type          | Required | Nullable       | Defined by                                                                                                                                                 |
+| :------------------------------ | :------------ | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [airUnits](#airunits)           | `array`       | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-air-units.md "AirUnits#/definitions/OperationFile/properties/airUnits")                     |
+| [area](#area)                   | Not specified | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-operation-area.md "OperationFile#/definitions/OperationFile/properties/area")               |
+| [coalitions](#coalitions)       | `object`      | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-coalitions.md "Coalitions#/definitions/OperationFile/properties/coalitions")                |
+| [description](#description)     | `string`      | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-operation-description.md "OperationFile#/definitions/OperationFile/properties/description") |
+| [groundUnits](#groundunits)     | `array`       | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-ground-units.md "GroundUnits#/definitions/OperationFile/properties/groundUnits")            |
+| [id](#id-6)                     | `string`      | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-operation-id.md "OperationFile#/definitions/OperationFile/properties/id")                   |
+| [installations](#installations) | `array`       | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-installations.md "Installations#/definitions/OperationFile/properties/installations")       |
+| [name](#name-4)                 | `string`      | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-operation-name.md "OperationFile#/definitions/OperationFile/properties/name")               |
+| [startDate](#startdate)         | `string`      | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-operation-start-date.md "StartDate#/definitions/OperationFile/properties/startDate")        |
+| [staticUnits](#staticunits)     | `array`       | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-static-units.md "StaticUnits#/definitions/OperationFile/properties/staticUnits")            |
 
 ### airUnits
 
-
+Operation Air Units such as Fighter Wings
 
 `airUnits`
 
@@ -1038,7 +1038,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-operationfile-properties-airunits.md "undefined#/definitions/OperationFile/properties/airUnits")
+*   defined in: [War Room Models](models-definitions-operation-file-properties-air-units.md "AirUnits#/definitions/OperationFile/properties/airUnits")
 
 #### airUnits Type
 
@@ -1046,39 +1046,40 @@ Reference this group by using
 
 ### area
 
-
+GeoJSON Polygon Feature defining the Operation Area, See
+<https://geojson.org/geojson-spec.html> for additional info
 
 `area`
 
 *   is required
 
-*   Type: unknown
+*   Type: unknown ([Operation Area](models-definitions-operation-file-properties-operation-area.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-operationfile-properties-area.md "undefined#/definitions/OperationFile/properties/area")
+*   defined in: [War Room Models](models-definitions-operation-file-properties-operation-area.md "OperationFile#/definitions/OperationFile/properties/area")
 
 #### area Type
 
-unknown
+unknown ([Operation Area](models-definitions-operation-file-properties-operation-area.md))
 
 ### coalitions
 
-
+Operation Coalitions
 
 `coalitions`
 
 *   is required
 
-*   Type: `object` ([Details](models-definitions-operationfile-properties-coalitions.md))
+*   Type: `object` ([Coalitions](models-definitions-operation-file-properties-coalitions.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-operationfile-properties-coalitions.md "undefined#/definitions/OperationFile/properties/coalitions")
+*   defined in: [War Room Models](models-definitions-operation-file-properties-coalitions.md "Coalitions#/definitions/OperationFile/properties/coalitions")
 
 #### coalitions Type
 
-`object` ([Details](models-definitions-operationfile-properties-coalitions.md))
+`object` ([Coalitions](models-definitions-operation-file-properties-coalitions.md))
 
 ### description
 
@@ -1088,19 +1089,19 @@ unknown
 
 *   is required
 
-*   Type: `string`
+*   Type: `string` ([Operation Description](models-definitions-operation-file-properties-operation-description.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-operationfile-properties-description.md "undefined#/definitions/OperationFile/properties/description")
+*   defined in: [War Room Models](models-definitions-operation-file-properties-operation-description.md "OperationFile#/definitions/OperationFile/properties/description")
 
 #### description Type
 
-`string`
+`string` ([Operation Description](models-definitions-operation-file-properties-operation-description.md))
 
 ### groundUnits
 
-
+Operation Ground Units such as Infantry or Armor Brigades
 
 `groundUnits`
 
@@ -1110,7 +1111,7 @@ unknown
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-operationfile-properties-groundunits.md "undefined#/definitions/OperationFile/properties/groundUnits")
+*   defined in: [War Room Models](models-definitions-operation-file-properties-ground-units.md "GroundUnits#/definitions/OperationFile/properties/groundUnits")
 
 #### groundUnits Type
 
@@ -1124,19 +1125,19 @@ unknown
 
 *   is required
 
-*   Type: `string`
+*   Type: `string` ([Operation ID](models-definitions-operation-file-properties-operation-id.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-operationfile-properties-id.md "undefined#/definitions/OperationFile/properties/id")
+*   defined in: [War Room Models](models-definitions-operation-file-properties-operation-id.md "OperationFile#/definitions/OperationFile/properties/id")
 
 #### id Type
 
-`string`
+`string` ([Operation ID](models-definitions-operation-file-properties-operation-id.md))
 
 ### installations
 
-
+Operation Installations such as Airbases or Naval Bases
 
 `installations`
 
@@ -1146,7 +1147,7 @@ unknown
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-operationfile-properties-installations.md "undefined#/definitions/OperationFile/properties/installations")
+*   defined in: [War Room Models](models-definitions-operation-file-properties-installations.md "Installations#/definitions/OperationFile/properties/installations")
 
 #### installations Type
 
@@ -1160,37 +1161,47 @@ unknown
 
 *   is required
 
-*   Type: `string`
+*   Type: `string` ([Operation Name](models-definitions-operation-file-properties-operation-name.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-operationfile-properties-name.md "undefined#/definitions/OperationFile/properties/name")
+*   defined in: [War Room Models](models-definitions-operation-file-properties-operation-name.md "OperationFile#/definitions/OperationFile/properties/name")
 
 #### name Type
 
-`string`
+`string` ([Operation Name](models-definitions-operation-file-properties-operation-name.md))
 
 ### startDate
 
-
+ISO Date Time String
 
 `startDate`
 
 *   is required
 
-*   Type: `string`
+*   Type: `string` ([Operation Start Date](models-definitions-operation-file-properties-operation-start-date.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-operationfile-properties-startdate.md "undefined#/definitions/OperationFile/properties/startDate")
+*   defined in: [War Room Models](models-definitions-operation-file-properties-operation-start-date.md "StartDate#/definitions/OperationFile/properties/startDate")
 
 #### startDate Type
 
-`string`
+`string` ([Operation Start Date](models-definitions-operation-file-properties-operation-start-date.md))
+
+#### startDate Constraints
+
+**unknown format**: the value of this string must follow the format: `iso-8601`
+
+#### startDate Examples
+
+```json
+"2022-04-12T22:28:55.980Z"
+```
 
 ### staticUnits
 
-
+Operation Static Units such as SAM Batteries
 
 `staticUnits`
 
@@ -1200,7 +1211,7 @@ unknown
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-operationfile-properties-staticunits.md "undefined#/definitions/OperationFile/properties/staticUnits")
+*   defined in: [War Room Models](models-definitions-operation-file-properties-static-units.md "StaticUnits#/definitions/OperationFile/properties/staticUnits")
 
 #### staticUnits Type
 
@@ -1211,14 +1222,14 @@ unknown
 Reference this group by using
 
 ```json
-{"$ref":"undefined#/definitions/Point"}
+{"$ref":"WarRoomModels#/definitions/Point"}
 ```
 
-| Property                    | Type     | Required | Nullable       | Defined by                                                                                                    |
-| :-------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------ |
-| [bbox](#bbox-4)             | Merged   | Optional | cannot be null | [Untitled schema](models-definitions-point-properties-bbox.md "undefined#/definitions/Point/properties/bbox") |
-| [coordinates](#coordinates) | `array`  | Required | cannot be null | [Untitled schema](models-definitions-position.md "undefined#/definitions/Point/properties/coordinates")       |
-| [type](#type-7)             | `string` | Required | cannot be null | [Untitled schema](models-definitions-point-properties-type.md "undefined#/definitions/Point/properties/type") |
+| Property                    | Type     | Required | Nullable       | Defined by                                                                                                        |
+| :-------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------- |
+| [bbox](#bbox-4)             | Merged   | Optional | cannot be null | [War Room Models](models-definitions-point-properties-bbox.md "WarRoomModels#/definitions/Point/properties/bbox") |
+| [coordinates](#coordinates) | `array`  | Required | cannot be null | [War Room Models](models-definitions-position.md "WarRoomModels#/definitions/Point/properties/coordinates")       |
+| [type](#type-7)             | `string` | Required | cannot be null | [War Room Models](models-definitions-point-properties-type.md "WarRoomModels#/definitions/Point/properties/type") |
 
 ### bbox
 
@@ -1232,7 +1243,7 @@ Bounding box of the coordinate range of the object's Geometries, Features, or Fe
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-point-properties-bbox.md "undefined#/definitions/Point/properties/bbox")
+*   defined in: [War Room Models](models-definitions-point-properties-bbox.md "WarRoomModels#/definitions/Point/properties/bbox")
 
 #### bbox Type
 
@@ -1240,9 +1251,9 @@ merged type ([Details](models-definitions-point-properties-bbox.md))
 
 any of
 
-*   [Untitled array in undefined](models-definitions-bbox2d.md "check type definition")
+*   [Untitled array in War Room Models](models-definitions-bbox2d.md "check type definition")
 
-*   [Untitled array in undefined](models-definitions-bbox3d.md "check type definition")
+*   [Untitled array in War Room Models](models-definitions-bbox3d.md "check type definition")
 
 ### coordinates
 
@@ -1258,7 +1269,7 @@ Position
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-position.md "undefined#/definitions/Point/properties/coordinates")
+*   defined in: [War Room Models](models-definitions-position.md "WarRoomModels#/definitions/Point/properties/coordinates")
 
 #### coordinates Type
 
@@ -1276,7 +1287,7 @@ Specifies the type of GeoJSON object.
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-point-properties-type.md "undefined#/definitions/Point/properties/type")
+*   defined in: [War Room Models](models-definitions-point-properties-type.md "WarRoomModels#/definitions/Point/properties/type")
 
 #### type Type
 
@@ -1295,14 +1306,14 @@ Specifies the type of GeoJSON object.
 Reference this group by using
 
 ```json
-{"$ref":"undefined#/definitions/Polygon"}
+{"$ref":"WarRoomModels#/definitions/Polygon"}
 ```
 
-| Property                      | Type     | Required | Nullable       | Defined by                                                                                                                      |
-| :---------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------ |
-| [bbox](#bbox-5)               | Merged   | Optional | cannot be null | [Untitled schema](models-definitions-polygon-properties-bbox.md "undefined#/definitions/Polygon/properties/bbox")               |
-| [coordinates](#coordinates-1) | `array`  | Required | cannot be null | [Untitled schema](models-definitions-polygon-properties-coordinates.md "undefined#/definitions/Polygon/properties/coordinates") |
-| [type](#type-8)               | `string` | Required | cannot be null | [Untitled schema](models-definitions-polygon-properties-type.md "undefined#/definitions/Polygon/properties/type")               |
+| Property                      | Type     | Required | Nullable       | Defined by                                                                                                                          |
+| :---------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
+| [bbox](#bbox-5)               | Merged   | Optional | cannot be null | [War Room Models](models-definitions-polygon-properties-bbox.md "WarRoomModels#/definitions/Polygon/properties/bbox")               |
+| [coordinates](#coordinates-1) | `array`  | Required | cannot be null | [War Room Models](models-definitions-polygon-properties-coordinates.md "WarRoomModels#/definitions/Polygon/properties/coordinates") |
+| [type](#type-8)               | `string` | Required | cannot be null | [War Room Models](models-definitions-polygon-properties-type.md "WarRoomModels#/definitions/Polygon/properties/type")               |
 
 ### bbox
 
@@ -1316,7 +1327,7 @@ Bounding box of the coordinate range of the object's Geometries, Features, or Fe
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-polygon-properties-bbox.md "undefined#/definitions/Polygon/properties/bbox")
+*   defined in: [War Room Models](models-definitions-polygon-properties-bbox.md "WarRoomModels#/definitions/Polygon/properties/bbox")
 
 #### bbox Type
 
@@ -1324,9 +1335,9 @@ merged type ([Details](models-definitions-polygon-properties-bbox.md))
 
 any of
 
-*   [Untitled array in undefined](models-definitions-bbox2d.md "check type definition")
+*   [Untitled array in War Room Models](models-definitions-bbox2d.md "check type definition")
 
-*   [Untitled array in undefined](models-definitions-bbox3d.md "check type definition")
+*   [Untitled array in War Room Models](models-definitions-bbox3d.md "check type definition")
 
 ### coordinates
 
@@ -1340,7 +1351,7 @@ any of
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-polygon-properties-coordinates.md "undefined#/definitions/Polygon/properties/coordinates")
+*   defined in: [War Room Models](models-definitions-polygon-properties-coordinates.md "WarRoomModels#/definitions/Polygon/properties/coordinates")
 
 #### coordinates Type
 
@@ -1358,7 +1369,7 @@ Specifies the type of GeoJSON object.
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-polygon-properties-type.md "undefined#/definitions/Polygon/properties/type")
+*   defined in: [War Room Models](models-definitions-polygon-properties-type.md "WarRoomModels#/definitions/Polygon/properties/type")
 
 #### type Type
 
@@ -1377,7 +1388,7 @@ Specifies the type of GeoJSON object.
 Reference this group by using
 
 ```json
-{"$ref":"undefined#/definitions/Position"}
+{"$ref":"WarRoomModels#/definitions/Position"}
 ```
 
 | Property | Type | Required | Nullable | Defined by |
@@ -1388,7 +1399,7 @@ Reference this group by using
 Reference this group by using
 
 ```json
-{"$ref":"undefined#/definitions/Properties"}
+{"$ref":"WarRoomModels#/definitions/Properties"}
 ```
 
 | Property | Type | Required | Nullable | Defined by |
@@ -1399,18 +1410,18 @@ Reference this group by using
 Reference this group by using
 
 ```json
-{"$ref":"undefined#/definitions/StaticUnit"}
+{"$ref":"WarRoomModels#/definitions/StaticUnit"}
 ```
 
-| Property                | Type          | Required | Nullable       | Defined by                                                                                                                      |
-| :---------------------- | :------------ | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------ |
-| [country](#country-3)   | `string`      | Required | cannot be null | [Untitled schema](models-definitions-staticunit-properties-country.md "undefined#/definitions/StaticUnit/properties/country")   |
-| [health](#health-4)     | `number`      | Required | cannot be null | [Untitled schema](models-definitions-staticunit-properties-health.md "undefined#/definitions/StaticUnit/properties/health")     |
-| [id](#id-7)             | `string`      | Required | cannot be null | [Untitled schema](models-definitions-staticunit-properties-id.md "undefined#/definitions/StaticUnit/properties/id")             |
-| [location](#location-4) | Not specified | Required | cannot be null | [Untitled schema](models-definitions-staticunit-properties-location.md "undefined#/definitions/StaticUnit/properties/location") |
-| [name](#name-5)         | `string`      | Required | cannot be null | [Untitled schema](models-definitions-staticunit-properties-name.md "undefined#/definitions/StaticUnit/properties/name")         |
-| [size](#size-2)         | `number`      | Required | cannot be null | [Untitled schema](models-definitions-staticunit-properties-size.md "undefined#/definitions/StaticUnit/properties/size")         |
-| [type](#type-9)         | `string`      | Required | cannot be null | [Untitled schema](models-definitions-staticunit-properties-type.md "undefined#/definitions/StaticUnit/properties/type")         |
+| Property                | Type          | Required | Nullable       | Defined by                                                                                                                          |
+| :---------------------- | :------------ | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
+| [country](#country-3)   | `string`      | Required | cannot be null | [War Room Models](models-definitions-staticunit-properties-country.md "WarRoomModels#/definitions/StaticUnit/properties/country")   |
+| [health](#health-4)     | `number`      | Required | cannot be null | [War Room Models](models-definitions-staticunit-properties-health.md "WarRoomModels#/definitions/StaticUnit/properties/health")     |
+| [id](#id-7)             | `string`      | Required | cannot be null | [War Room Models](models-definitions-staticunit-properties-id.md "WarRoomModels#/definitions/StaticUnit/properties/id")             |
+| [location](#location-4) | Not specified | Required | cannot be null | [War Room Models](models-definitions-staticunit-properties-location.md "WarRoomModels#/definitions/StaticUnit/properties/location") |
+| [name](#name-5)         | `string`      | Required | cannot be null | [War Room Models](models-definitions-staticunit-properties-name.md "WarRoomModels#/definitions/StaticUnit/properties/name")         |
+| [size](#size-2)         | `number`      | Required | cannot be null | [War Room Models](models-definitions-staticunit-properties-size.md "WarRoomModels#/definitions/StaticUnit/properties/size")         |
+| [type](#type-9)         | `string`      | Required | cannot be null | [War Room Models](models-definitions-staticunit-properties-type.md "WarRoomModels#/definitions/StaticUnit/properties/type")         |
 
 ### country
 
@@ -1424,7 +1435,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-staticunit-properties-country.md "undefined#/definitions/StaticUnit/properties/country")
+*   defined in: [War Room Models](models-definitions-staticunit-properties-country.md "WarRoomModels#/definitions/StaticUnit/properties/country")
 
 #### country Type
 
@@ -1442,7 +1453,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-staticunit-properties-health.md "undefined#/definitions/StaticUnit/properties/health")
+*   defined in: [War Room Models](models-definitions-staticunit-properties-health.md "WarRoomModels#/definitions/StaticUnit/properties/health")
 
 #### health Type
 
@@ -1460,7 +1471,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-staticunit-properties-id.md "undefined#/definitions/StaticUnit/properties/id")
+*   defined in: [War Room Models](models-definitions-staticunit-properties-id.md "WarRoomModels#/definitions/StaticUnit/properties/id")
 
 #### id Type
 
@@ -1478,7 +1489,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-staticunit-properties-location.md "undefined#/definitions/StaticUnit/properties/location")
+*   defined in: [War Room Models](models-definitions-staticunit-properties-location.md "WarRoomModels#/definitions/StaticUnit/properties/location")
 
 #### location Type
 
@@ -1496,7 +1507,7 @@ unknown
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-staticunit-properties-name.md "undefined#/definitions/StaticUnit/properties/name")
+*   defined in: [War Room Models](models-definitions-staticunit-properties-name.md "WarRoomModels#/definitions/StaticUnit/properties/name")
 
 #### name Type
 
@@ -1514,7 +1525,7 @@ unknown
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-staticunit-properties-size.md "undefined#/definitions/StaticUnit/properties/size")
+*   defined in: [War Room Models](models-definitions-staticunit-properties-size.md "WarRoomModels#/definitions/StaticUnit/properties/size")
 
 #### size Type
 
@@ -1532,7 +1543,7 @@ unknown
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-staticunit-properties-type.md "undefined#/definitions/StaticUnit/properties/type")
+*   defined in: [War Room Models](models-definitions-staticunit-properties-type.md "WarRoomModels#/definitions/StaticUnit/properties/type")
 
 #### type Type
 
@@ -1543,13 +1554,13 @@ unknown
 Reference this group by using
 
 ```json
-{"$ref":"undefined#/definitions/TurnInformation"}
+{"$ref":"WarRoomModels#/definitions/TurnInformation"}
 ```
 
-| Property                | Type     | Required | Nullable       | Defined by                                                                                                                                  |
-| :---------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
-| [timestamp](#timestamp) | `string` | Required | cannot be null | [Untitled schema](models-definitions-turninformation-properties-timestamp.md "undefined#/definitions/TurnInformation/properties/timestamp") |
-| [turn](#turn)           | `number` | Required | cannot be null | [Untitled schema](models-definitions-turninformation-properties-turn.md "undefined#/definitions/TurnInformation/properties/turn")           |
+| Property                | Type     | Required | Nullable       | Defined by                                                                                                                                      |
+| :---------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------- |
+| [timestamp](#timestamp) | `string` | Required | cannot be null | [War Room Models](models-definitions-turninformation-properties-timestamp.md "WarRoomModels#/definitions/TurnInformation/properties/timestamp") |
+| [turn](#turn)           | `number` | Required | cannot be null | [War Room Models](models-definitions-turninformation-properties-turn.md "WarRoomModels#/definitions/TurnInformation/properties/turn")           |
 
 ### timestamp
 
@@ -1563,7 +1574,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-turninformation-properties-timestamp.md "undefined#/definitions/TurnInformation/properties/timestamp")
+*   defined in: [War Room Models](models-definitions-turninformation-properties-timestamp.md "WarRoomModels#/definitions/TurnInformation/properties/timestamp")
 
 #### timestamp Type
 
@@ -1585,7 +1596,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-turninformation-properties-turn.md "undefined#/definitions/TurnInformation/properties/turn")
+*   defined in: [War Room Models](models-definitions-turninformation-properties-turn.md "WarRoomModels#/definitions/TurnInformation/properties/turn")
 
 #### turn Type
 
@@ -1596,17 +1607,17 @@ Reference this group by using
 Reference this group by using
 
 ```json
-{"$ref":"undefined#/definitions/Unit"}
+{"$ref":"WarRoomModels#/definitions/Unit"}
 ```
 
-| Property              | Type     | Required | Nullable       | Defined by                                                                                                        |
-| :-------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------- |
-| [country](#country-4) | `string` | Required | cannot be null | [Untitled schema](models-definitions-unit-properties-country.md "undefined#/definitions/Unit/properties/country") |
-| [health](#health-5)   | `number` | Required | cannot be null | [Untitled schema](models-definitions-unit-properties-health.md "undefined#/definitions/Unit/properties/health")   |
-| [id](#id-8)           | `string` | Required | cannot be null | [Untitled schema](models-definitions-unit-properties-id.md "undefined#/definitions/Unit/properties/id")           |
-| [name](#name-6)       | `string` | Required | cannot be null | [Untitled schema](models-definitions-unit-properties-name.md "undefined#/definitions/Unit/properties/name")       |
-| [size](#size-3)       | `number` | Required | cannot be null | [Untitled schema](models-definitions-unit-properties-size.md "undefined#/definitions/Unit/properties/size")       |
-| [type](#type-10)      | `string` | Required | cannot be null | [Untitled schema](models-definitions-unit-properties-type.md "undefined#/definitions/Unit/properties/type")       |
+| Property              | Type     | Required | Nullable       | Defined by                                                                                                            |
+| :-------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------- |
+| [country](#country-4) | `string` | Required | cannot be null | [War Room Models](models-definitions-unit-properties-country.md "WarRoomModels#/definitions/Unit/properties/country") |
+| [health](#health-5)   | `number` | Required | cannot be null | [War Room Models](models-definitions-unit-properties-health.md "WarRoomModels#/definitions/Unit/properties/health")   |
+| [id](#id-8)           | `string` | Required | cannot be null | [War Room Models](models-definitions-unit-properties-id.md "WarRoomModels#/definitions/Unit/properties/id")           |
+| [name](#name-6)       | `string` | Required | cannot be null | [War Room Models](models-definitions-unit-properties-name.md "WarRoomModels#/definitions/Unit/properties/name")       |
+| [size](#size-3)       | `number` | Required | cannot be null | [War Room Models](models-definitions-unit-properties-size.md "WarRoomModels#/definitions/Unit/properties/size")       |
+| [type](#type-10)      | `string` | Required | cannot be null | [War Room Models](models-definitions-unit-properties-type.md "WarRoomModels#/definitions/Unit/properties/type")       |
 
 ### country
 
@@ -1620,7 +1631,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-unit-properties-country.md "undefined#/definitions/Unit/properties/country")
+*   defined in: [War Room Models](models-definitions-unit-properties-country.md "WarRoomModels#/definitions/Unit/properties/country")
 
 #### country Type
 
@@ -1638,7 +1649,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-unit-properties-health.md "undefined#/definitions/Unit/properties/health")
+*   defined in: [War Room Models](models-definitions-unit-properties-health.md "WarRoomModels#/definitions/Unit/properties/health")
 
 #### health Type
 
@@ -1656,7 +1667,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-unit-properties-id.md "undefined#/definitions/Unit/properties/id")
+*   defined in: [War Room Models](models-definitions-unit-properties-id.md "WarRoomModels#/definitions/Unit/properties/id")
 
 #### id Type
 
@@ -1674,7 +1685,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-unit-properties-name.md "undefined#/definitions/Unit/properties/name")
+*   defined in: [War Room Models](models-definitions-unit-properties-name.md "WarRoomModels#/definitions/Unit/properties/name")
 
 #### name Type
 
@@ -1692,7 +1703,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-unit-properties-size.md "undefined#/definitions/Unit/properties/size")
+*   defined in: [War Room Models](models-definitions-unit-properties-size.md "WarRoomModels#/definitions/Unit/properties/size")
 
 #### size Type
 
@@ -1710,7 +1721,7 @@ Reference this group by using
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-unit-properties-type.md "undefined#/definitions/Unit/properties/type")
+*   defined in: [War Room Models](models-definitions-unit-properties-type.md "WarRoomModels#/definitions/Unit/properties/type")
 
 #### type Type
 

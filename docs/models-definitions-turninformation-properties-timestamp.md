@@ -1,7 +1,7 @@
-# Untitled string in undefined Schema
+# Untitled string in War Room Models Schema
 
 ```txt
-undefined#/definitions/TurnInformation/properties/timestamp
+WarRoomModels#/definitions/TurnInformation/properties/timestamp
 ```
 
 

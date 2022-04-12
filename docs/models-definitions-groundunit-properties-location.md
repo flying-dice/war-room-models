@@ -1,7 +1,7 @@
-# Untitled object in undefined Schema
+# Untitled object in War Room Models Schema
 
 ```txt
-undefined#/definitions/GroundUnit/properties/location
+WarRoomModels#/definitions/GroundUnit/properties/location
 ```
 
 
@@ -16,10 +16,10 @@ undefined#/definitions/GroundUnit/properties/location
 
 # location Properties
 
-| Property | Type     | Required | Nullable       | Defined by                                                                                                                                                |
-| :------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [x](#x)  | `number` | Required | cannot be null | [Untitled schema](models-definitions-groundunit-properties-location-properties-x.md "undefined#/definitions/GroundUnit/properties/location/properties/x") |
-| [y](#y)  | `number` | Required | cannot be null | [Untitled schema](models-definitions-groundunit-properties-location-properties-y.md "undefined#/definitions/GroundUnit/properties/location/properties/y") |
+| Property | Type     | Required | Nullable       | Defined by                                                                                                                                                    |
+| :------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [x](#x)  | `number` | Required | cannot be null | [War Room Models](models-definitions-groundunit-properties-location-properties-x.md "WarRoomModels#/definitions/GroundUnit/properties/location/properties/x") |
+| [y](#y)  | `number` | Required | cannot be null | [War Room Models](models-definitions-groundunit-properties-location-properties-y.md "WarRoomModels#/definitions/GroundUnit/properties/location/properties/y") |
 
 ## x
 
@@ -33,7 +33,7 @@ undefined#/definitions/GroundUnit/properties/location
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-groundunit-properties-location-properties-x.md "undefined#/definitions/GroundUnit/properties/location/properties/x")
+*   defined in: [War Room Models](models-definitions-groundunit-properties-location-properties-x.md "WarRoomModels#/definitions/GroundUnit/properties/location/properties/x")
 
 ### x Type
 
@@ -51,7 +51,7 @@ undefined#/definitions/GroundUnit/properties/location
 
 *   cannot be null
 
-*   defined in: [Untitled schema](models-definitions-groundunit-properties-location-properties-y.md "undefined#/definitions/GroundUnit/properties/location/properties/y")
+*   defined in: [War Room Models](models-definitions-groundunit-properties-location-properties-y.md "WarRoomModels#/definitions/GroundUnit/properties/location/properties/y")
 
 ### y Type
 
