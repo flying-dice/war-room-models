@@ -4,3 +4,4 @@ node_modules
 
 schema.js
 schema.json
+/.schema/

@@ -25,7 +25,9 @@
   "scripts": {
     "prettier": "prettier . --write",
     "build": "rimraf dist && tsc",
-    "postbuild": "ts-json-schema-generator --path 'src/**/*.ts' --out 'schema.json' && node ./scripts/compile-schema.js",
+    "postbuild": "npm run generate:json-schema && npm run generate:docs",
+    "generate:json-schema": "ts-json-schema-generator --path 'src/**/*.ts' --out 'schema.json' && node ./scripts/compile-schema.js",
+    "generate:docs": "rimraf docs && node ./scripts/prepare-docs-schema.js && jsonschema2md -d .schema && mv out docs",
     "semantic-release": "semantic-release"
   },
   "publishConfig": {
@@ -40,8 +42,10 @@
     "@turf/turf": "^6.5.0"
   },
   "devDependencies": {
+    "@adobe/jsonschema2md": "^7.0.0",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
+    "fs-extra": "^10.0.1",
     "javascript-stringify": "^2.1.0",
     "prettier": "^2.6.1",
     "rimraf": "^3.0.2",
