@@ -42,8 +42,6 @@
 
 *   [Untitled object in War Room Models](./models-definitions-locatable.md) – `WarRoomModels#/definitions/Locatable`
 
-*   [Untitled object in War Room Models](./models-definitions-groundunit-properties-location.md) – `WarRoomModels#/definitions/GroundUnit/properties/location`
-
 *   [Untitled object in War Room Models](./models-definitions-point.md "Point Geometry Objecthttps://tools") – `WarRoomModels#/definitions/Point`
 
 *   [Untitled object in War Room Models](./models-definitions-polygon.md "Polygon Geometry Objecthttps://tools") – `WarRoomModels#/definitions/Polygon`
@@ -51,8 +49,6 @@
 *   [Untitled object in War Room Models](./models-definitions-properties-anyof-0.md) – `WarRoomModels#/definitions/Properties/anyOf/0`
 
 *   [Untitled object in War Room Models](./models-definitions-staticunit.md) – `WarRoomModels#/definitions/StaticUnit`
-
-*   [Untitled object in War Room Models](./models-definitions-turninformation.md) – `WarRoomModels#/definitions/TurnInformation`
 
 *   [Untitled object in War Room Models](./models-definitions-unit.md) – `WarRoomModels#/definitions/Unit`
 

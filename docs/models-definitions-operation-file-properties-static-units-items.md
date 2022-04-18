@@ -1,15 +1,15 @@
-# Static Units Schema
+# Untitled undefined type in War Room Models Schema
 
 ```txt
-StaticUnits#/definitions/OperationFile/properties/staticUnits
+StaticUnits#/definitions/OperationFile/properties/staticUnits/items
 ```
 
-Operation Static Units such as SAM Batteries
+
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [models.schema.json\*](models.schema.json "open original schema") |
 
-## staticUnits Type
+## items Type
 
-unknown\[]
+unknown

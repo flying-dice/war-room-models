@@ -5,6 +5,6 @@ const { resolve } = require("path");
 const schema = require("../schema.json");
 
 writeFileSync(
-  resolve(__dirname, "../schema.js"),
-  `export default ${stringify(schema)}`
+  resolve(__dirname, "../src/schema.ts"),
+  `export const schema = ${stringify(schema)}`
 );

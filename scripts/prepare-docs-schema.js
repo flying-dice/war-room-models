@@ -7,12 +7,7 @@ ensureDir(dirname(dest));
 
 let schema = require("../schema.json");
 
-schema = JSON.parse(
-  JSON.stringify(schema).replaceAll(
-    "#/definitions",
-    "./models.schema.json/#/definitions"
-  )
-);
+
 
 schema = {
   title: "War Room Models",

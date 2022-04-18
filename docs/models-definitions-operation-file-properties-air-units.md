@@ -12,4 +12,4 @@ Operation Air Units such as Fighter Wings
 
 ## airUnits Type
 
-`object[]` ([Details](models-definitions-airunit.md))
+unknown\[]

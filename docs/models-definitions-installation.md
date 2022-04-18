@@ -1,7 +1,7 @@
 # Untitled object in War Room Models Schema
 
 ```txt
-Installations#/definitions/OperationFile/properties/installations/items
+WarRoomModels#/definitions/Installation
 ```
 
 
@@ -10,11 +10,11 @@ Installations#/definitions/OperationFile/properties/installations/items
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | No           | Forbidden         | Forbidden             | none                | [models.schema.json\*](models.schema.json "open original schema") |
 
-## items Type
+## Installation Type
 
 `object` ([Details](models-definitions-installation.md))
 
-# items Properties
+# Installation Properties
 
 | Property              | Type          | Required | Nullable       | Defined by                                                                                                                              |
 | :-------------------- | :------------ | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |

@@ -1,7 +1,7 @@
 # Untitled object in War Room Models Schema
 
 ```txt
-AirUnits#/definitions/OperationFile/properties/airUnits/items
+WarRoomModels#/definitions/AirUnit
 ```
 
 
@@ -10,11 +10,11 @@ AirUnits#/definitions/OperationFile/properties/airUnits/items
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | No           | Forbidden         | Forbidden             | none                | [models.schema.json\*](models.schema.json "open original schema") |
 
-## items Type
+## AirUnit Type
 
 `object` ([Details](models-definitions-airunit.md))
 
-# items Properties
+# AirUnit Properties
 
 | Property            | Type     | Required | Nullable       | Defined by                                                                                                                  |
 | :------------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------- |

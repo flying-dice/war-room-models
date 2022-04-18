@@ -12,4 +12,4 @@ Operation Ground Units such as Infantry or Armor Brigades
 
 ## groundUnits Type
 
-`object[]` ([Details](models-definitions-groundunit.md))
+unknown\[]

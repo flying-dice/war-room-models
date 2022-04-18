@@ -37,7 +37,7 @@ Operation Air Units such as Fighter Wings
 
 *   is required
 
-*   Type: `object[]` ([Details](models-definitions-airunit.md))
+*   Type: unknown\[]
 
 *   cannot be null
 
@@ -45,7 +45,7 @@ Operation Air Units such as Fighter Wings
 
 ### airUnits Type
 
-`object[]` ([Details](models-definitions-airunit.md))
+unknown\[]
 
 ## area
 
@@ -110,7 +110,7 @@ Operation Ground Units such as Infantry or Armor Brigades
 
 *   is required
 
-*   Type: `object[]` ([Details](models-definitions-groundunit.md))
+*   Type: unknown\[]
 
 *   cannot be null
 
@@ -118,7 +118,7 @@ Operation Ground Units such as Infantry or Armor Brigades
 
 ### groundUnits Type
 
-`object[]` ([Details](models-definitions-groundunit.md))
+unknown\[]
 
 ## id
 
@@ -146,7 +146,7 @@ Operation Installations such as Airbases or Naval Bases
 
 *   is required
 
-*   Type: `object[]` ([Details](models-definitions-installation.md))
+*   Type: unknown\[]
 
 *   cannot be null
 
@@ -154,7 +154,7 @@ Operation Installations such as Airbases or Naval Bases
 
 ### installations Type
 
-`object[]` ([Details](models-definitions-installation.md))
+unknown\[]
 
 ## name
 
@@ -210,7 +210,7 @@ Operation Static Units such as SAM Batteries
 
 *   is required
 
-*   Type: `object[]` ([Details](models-definitions-staticunit.md))
+*   Type: unknown\[]
 
 *   cannot be null
 
@@ -218,4 +218,4 @@ Operation Static Units such as SAM Batteries
 
 ### staticUnits Type
 
-`object[]` ([Details](models-definitions-staticunit.md))
+unknown\[]

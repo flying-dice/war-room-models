@@ -1,7 +1,7 @@
-# Untitled number in War Room Models Schema
+# Untitled undefined type in War Room Models Schema
 
 ```txt
-WarRoomModels#/definitions/TurnInformation/properties/turn
+AirUnits#/definitions/OperationFile/properties/airUnits/items
 ```
 
 
@@ -10,6 +10,6 @@ WarRoomModels#/definitions/TurnInformation/properties/turn
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [models.schema.json\*](models.schema.json "open original schema") |
 
-## turn Type
+## items Type
 
-`number`
+unknown

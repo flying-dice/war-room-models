@@ -12,4 +12,4 @@ Operation Installations such as Airbases or Naval Bases
 
 ## installations Type
 
-`object[]` ([Details](models-definitions-installation.md))
+unknown\[]
