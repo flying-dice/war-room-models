@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/flying-dice/war-room-models/compare/v1.6.0...v1.7.0) (2022-04-18)
+
+
+### Features
+
+* add validation ([c05ba98](https://github.com/flying-dice/war-room-models/commit/c05ba98e818654e4f4cd1148d369969d4b7c367d))
+
 # [1.6.0](https://github.com/flying-dice/war-room-models/compare/v1.5.0...v1.6.0) (2022-04-18)
 
 
