@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/flying-dice/war-room-models/compare/v1.3.0...v1.4.0) (2022-04-18)
+
+
+### Features
+
+* add duration to turn information ([f47f0b5](https://github.com/flying-dice/war-room-models/commit/f47f0b55ecf615cc80fbab02a86b98f74328fec5))
+
 # [1.3.0](https://github.com/flying-dice/war-room-models/compare/v1.2.0...v1.3.0) (2022-04-17)
 
 
