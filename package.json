@@ -6,8 +6,7 @@
   "main": "dist/index.js",
   "files": [
     "dist",
-    "schema.json",
-    "schema.js"
+    "schema.json"
   ],
   "release": {
     "branches": [
