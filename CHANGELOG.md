@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/flying-dice/war-room-models/compare/v1.7.0...v1.8.0) (2022-04-18)
+
+
+### Features
+
+* add supporting formats ([ff5bdb1](https://github.com/flying-dice/war-room-models/commit/ff5bdb1cac193fa4a8080b046bbd4fa2ae19745e))
+
 # [1.7.0](https://github.com/flying-dice/war-room-models/compare/v1.6.0...v1.7.0) (2022-04-18)
 
 
