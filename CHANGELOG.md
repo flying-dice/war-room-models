@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/flying-dice/war-room-models/compare/v1.2.0...v1.3.0) (2022-04-17)
+
+
+### Features
+
+* add operation file export ([fd5a78d](https://github.com/flying-dice/war-room-models/commit/fd5a78db13092b6744667c0439dabfc0d0fc567b))
+
 # [1.2.0](https://github.com/flying-dice/war-room-models/compare/v1.1.0...v1.2.0) (2022-04-12)
 
 
