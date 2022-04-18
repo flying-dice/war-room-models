@@ -1,3 +1,11 @@
+# [1.5.0](https://github.com/flying-dice/war-room-models/compare/v1.4.0...v1.5.0) (2022-04-18)
+
+
+### Features
+
+* remove legacy schema export ([c598fbb](https://github.com/flying-dice/war-room-models/commit/c598fbbfc81a469ab6d03b197a7c205db28c07eb))
+* remove redundant information & rebuild schema plus docs ([2a63786](https://github.com/flying-dice/war-room-models/commit/2a637862127d2fb9a40506e5a8438d3a1c4cfeab))
+
 # [1.4.0](https://github.com/flying-dice/war-room-models/compare/v1.3.0...v1.4.0) (2022-04-18)
 
 
