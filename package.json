@@ -40,7 +40,8 @@
   },
   "dependencies": {
     "@turf/turf": "^6.5.0",
-    "ajv": "^8.11.0"
+    "ajv": "^8.11.0",
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "@adobe/jsonschema2md": "^7.0.0",

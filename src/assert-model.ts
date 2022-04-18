@@ -1,8 +1,10 @@
-import { schema } from "./schema";
-import Ajv, { ErrorObject } from "ajv";
+import Ajv, {ErrorObject} from "ajv";
+import {schema} from "./schema";
+import {addValidatorFormats} from "./add-validator-formats";
 
 const ajv = new Ajv({ allErrors: true });
-ajv.addSchema({...schema, $id: undefined})
+addValidatorFormats(ajv)
+ajv.addSchema({...schema, $id: undefined});
 
 export const assertModel = <T>(
   object: T,
