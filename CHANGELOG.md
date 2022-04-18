@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/flying-dice/war-room-models/compare/v1.5.0...v1.6.0) (2022-04-18)
+
+
+### Features
+
+* add id to airunit ([3966be9](https://github.com/flying-dice/war-room-models/commit/3966be9ec9a61d56073abb34e9fdcda321b4c6e9))
+
 # [1.5.0](https://github.com/flying-dice/war-room-models/compare/v1.4.0...v1.5.0) (2022-04-18)
 
 
