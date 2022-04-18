@@ -1,20 +1,20 @@
-# Untitled object in War Room Models Schema
+# AirUnit Schema
 
 ```txt
-WarRoomModels#/definitions/AirUnit
+WarRoomModels#/definitions/OperationFile/properties/airUnits/items
 ```
 
-
+Air Unit Model such as Fighter, Bomber or CAS Wing
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                        |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | No           | Forbidden         | Forbidden             | none                | [models.schema.json\*](models.schema.json "open original schema") |
 
-## AirUnit Type
+## items Type
 
-`object` ([Details](models-definitions-airunit.md))
+`object` ([AirUnit](models-definitions-airunit.md))
 
-# AirUnit Properties
+# items Properties
 
 | Property            | Type     | Required | Nullable       | Defined by                                                                                                                  |
 | :------------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------- |

@@ -1,13 +1,12 @@
 const { join, dirname } = require("path");
-const { ensureDir, writeJsonSync } = require("fs-extra");
+const { ensureDir, writeJsonSync, readJsonSync } = require("fs-extra");
 
+const schemaFile = join(__dirname, "../schema.json");
 const dest = join(__dirname, "../", ".schema", "models.schema.json");
 
 ensureDir(dirname(dest));
 
-let schema = require("../schema.json");
-
-
+let schema = readJsonSync(schemaFile);
 
 schema = {
   title: "War Room Models",

@@ -1,7 +1,7 @@
 # Operation Description Schema
 
 ```txt
-OperationFile#/definitions/OperationFile/properties/description
+WarRoomModels#/definitions/OperationFile/properties/description
 ```
 
 

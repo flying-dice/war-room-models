@@ -1,7 +1,7 @@
 # Installations Schema
 
 ```txt
-Installations#/definitions/OperationFile/properties/installations
+WarRoomModels#/definitions/OperationFile/properties/installations
 ```
 
 Operation Installations such as Airbases or Naval Bases
@@ -12,4 +12,4 @@ Operation Installations such as Airbases or Naval Bases
 
 ## installations Type
 
-unknown\[]
+`object[]` ([Details](models-definitions-installation.md))

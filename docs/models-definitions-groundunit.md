@@ -1,7 +1,7 @@
 # Untitled object in War Room Models Schema
 
 ```txt
-WarRoomModels#/definitions/GroundUnit
+WarRoomModels#/definitions/OperationFile/properties/groundUnits/items
 ```
 
 
@@ -10,11 +10,11 @@ WarRoomModels#/definitions/GroundUnit
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | No           | Forbidden         | Forbidden             | none                | [models.schema.json\*](models.schema.json "open original schema") |
 
-## GroundUnit Type
+## items Type
 
 `object` ([Details](models-definitions-groundunit.md))
 
-# GroundUnit Properties
+# items Properties
 
 | Property              | Type     | Required | Nullable       | Defined by                                                                                                                          |
 | :-------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------- |

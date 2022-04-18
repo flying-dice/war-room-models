@@ -1,7 +1,7 @@
 # Untitled string in War Room Models Schema
 
 ```txt
-Blufor#/definitions/OperationFile/properties/coalitions/properties/blufor/items
+WarRoomModels#/definitions/OperationFile/properties/coalitions/properties/blufor/items
 ```
 
 

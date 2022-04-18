@@ -1,7 +1,7 @@
 # Blufor Schema
 
 ```txt
-Blufor#/definitions/OperationFile/properties/coalitions/properties/blufor
+WarRoomModels#/definitions/OperationFile/properties/coalitions/properties/blufor
 ```
 
 Operation Blufor Coalition

@@ -1,7 +1,7 @@
 # Opfor Schema
 
 ```txt
-Opfor#/definitions/OperationFile/properties/coalitions/properties/opfor
+WarRoomModels#/definitions/OperationFile/properties/coalitions/properties/opfor
 ```
 
 Operation Opfor Coalition

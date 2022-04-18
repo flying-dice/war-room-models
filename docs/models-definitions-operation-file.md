@@ -1,7 +1,7 @@
 # Operation File Schema
 
 ```txt
-OperationFile#/definitions/OperationFile
+WarRoomModels#/definitions/OperationFile
 ```
 
 War Room Operation File
@@ -18,16 +18,16 @@ War Room Operation File
 
 | Property                        | Type          | Required | Nullable       | Defined by                                                                                                                                                 |
 | :------------------------------ | :------------ | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [airUnits](#airunits)           | `array`       | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-air-units.md "AirUnits#/definitions/OperationFile/properties/airUnits")                     |
-| [area](#area)                   | Not specified | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-operation-area.md "OperationFile#/definitions/OperationFile/properties/area")               |
-| [coalitions](#coalitions)       | `object`      | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-coalitions.md "Coalitions#/definitions/OperationFile/properties/coalitions")                |
-| [description](#description)     | `string`      | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-operation-description.md "OperationFile#/definitions/OperationFile/properties/description") |
-| [groundUnits](#groundunits)     | `array`       | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-ground-units.md "GroundUnits#/definitions/OperationFile/properties/groundUnits")            |
-| [id](#id)                       | `string`      | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-operation-id.md "OperationFile#/definitions/OperationFile/properties/id")                   |
-| [installations](#installations) | `array`       | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-installations.md "Installations#/definitions/OperationFile/properties/installations")       |
-| [name](#name)                   | `string`      | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-operation-name.md "OperationFile#/definitions/OperationFile/properties/name")               |
-| [startDate](#startdate)         | `string`      | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-operation-start-date.md "StartDate#/definitions/OperationFile/properties/startDate")        |
-| [staticUnits](#staticunits)     | `array`       | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-static-units.md "StaticUnits#/definitions/OperationFile/properties/staticUnits")            |
+| [airUnits](#airunits)           | `array`       | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-air-units.md "WarRoomModels#/definitions/OperationFile/properties/airUnits")                |
+| [area](#area)                   | Not specified | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-area.md "WarRoomModels#/definitions/OperationFile/properties/area")                         |
+| [coalitions](#coalitions)       | `object`      | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-coalitions.md "WarRoomModels#/definitions/OperationFile/properties/coalitions")             |
+| [description](#description)     | `string`      | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-operation-description.md "WarRoomModels#/definitions/OperationFile/properties/description") |
+| [groundUnits](#groundunits)     | `array`       | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-ground-units.md "WarRoomModels#/definitions/OperationFile/properties/groundUnits")          |
+| [id](#id)                       | `string`      | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-operation-id.md "WarRoomModels#/definitions/OperationFile/properties/id")                   |
+| [installations](#installations) | `array`       | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-installations.md "WarRoomModels#/definitions/OperationFile/properties/installations")       |
+| [name](#name)                   | `string`      | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-operation-name.md "WarRoomModels#/definitions/OperationFile/properties/name")               |
+| [startDate](#startdate)         | `string`      | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-operation-start-date.md "WarRoomModels#/definitions/OperationFile/properties/startDate")    |
+| [staticUnits](#staticunits)     | `array`       | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-static-units.md "WarRoomModels#/definitions/OperationFile/properties/staticUnits")          |
 
 ## airUnits
 
@@ -37,15 +37,15 @@ Operation Air Units such as Fighter Wings
 
 *   is required
 
-*   Type: unknown\[]
+*   Type: `object[]` ([AirUnit](models-definitions-airunit.md))
 
 *   cannot be null
 
-*   defined in: [War Room Models](models-definitions-operation-file-properties-air-units.md "AirUnits#/definitions/OperationFile/properties/airUnits")
+*   defined in: [War Room Models](models-definitions-operation-file-properties-air-units.md "WarRoomModels#/definitions/OperationFile/properties/airUnits")
 
 ### airUnits Type
 
-unknown\[]
+`object[]` ([AirUnit](models-definitions-airunit.md))
 
 ## area
 
@@ -56,15 +56,15 @@ GeoJSON Polygon Feature defining the Operation Area, See
 
 *   is required
 
-*   Type: unknown ([Operation Area](models-definitions-operation-file-properties-operation-area.md))
+*   Type: unknown
 
 *   cannot be null
 
-*   defined in: [War Room Models](models-definitions-operation-file-properties-operation-area.md "OperationFile#/definitions/OperationFile/properties/area")
+*   defined in: [War Room Models](models-definitions-operation-file-properties-area.md "WarRoomModels#/definitions/OperationFile/properties/area")
 
 ### area Type
 
-unknown ([Operation Area](models-definitions-operation-file-properties-operation-area.md))
+unknown
 
 ## coalitions
 
@@ -78,7 +78,7 @@ Operation Coalitions
 
 *   cannot be null
 
-*   defined in: [War Room Models](models-definitions-operation-file-properties-coalitions.md "Coalitions#/definitions/OperationFile/properties/coalitions")
+*   defined in: [War Room Models](models-definitions-operation-file-properties-coalitions.md "WarRoomModels#/definitions/OperationFile/properties/coalitions")
 
 ### coalitions Type
 
@@ -96,7 +96,7 @@ Operation Coalitions
 
 *   cannot be null
 
-*   defined in: [War Room Models](models-definitions-operation-file-properties-operation-description.md "OperationFile#/definitions/OperationFile/properties/description")
+*   defined in: [War Room Models](models-definitions-operation-file-properties-operation-description.md "WarRoomModels#/definitions/OperationFile/properties/description")
 
 ### description Type
 
@@ -110,15 +110,15 @@ Operation Ground Units such as Infantry or Armor Brigades
 
 *   is required
 
-*   Type: unknown\[]
+*   Type: `object[]` ([Details](models-definitions-groundunit.md))
 
 *   cannot be null
 
-*   defined in: [War Room Models](models-definitions-operation-file-properties-ground-units.md "GroundUnits#/definitions/OperationFile/properties/groundUnits")
+*   defined in: [War Room Models](models-definitions-operation-file-properties-ground-units.md "WarRoomModels#/definitions/OperationFile/properties/groundUnits")
 
 ### groundUnits Type
 
-unknown\[]
+`object[]` ([Details](models-definitions-groundunit.md))
 
 ## id
 
@@ -132,7 +132,7 @@ unknown\[]
 
 *   cannot be null
 
-*   defined in: [War Room Models](models-definitions-operation-file-properties-operation-id.md "OperationFile#/definitions/OperationFile/properties/id")
+*   defined in: [War Room Models](models-definitions-operation-file-properties-operation-id.md "WarRoomModels#/definitions/OperationFile/properties/id")
 
 ### id Type
 
@@ -146,15 +146,15 @@ Operation Installations such as Airbases or Naval Bases
 
 *   is required
 
-*   Type: unknown\[]
+*   Type: `object[]` ([Details](models-definitions-installation.md))
 
 *   cannot be null
 
-*   defined in: [War Room Models](models-definitions-operation-file-properties-installations.md "Installations#/definitions/OperationFile/properties/installations")
+*   defined in: [War Room Models](models-definitions-operation-file-properties-installations.md "WarRoomModels#/definitions/OperationFile/properties/installations")
 
 ### installations Type
 
-unknown\[]
+`object[]` ([Details](models-definitions-installation.md))
 
 ## name
 
@@ -168,7 +168,7 @@ unknown\[]
 
 *   cannot be null
 
-*   defined in: [War Room Models](models-definitions-operation-file-properties-operation-name.md "OperationFile#/definitions/OperationFile/properties/name")
+*   defined in: [War Room Models](models-definitions-operation-file-properties-operation-name.md "WarRoomModels#/definitions/OperationFile/properties/name")
 
 ### name Type
 
@@ -186,7 +186,7 @@ ISO Date Time String
 
 *   cannot be null
 
-*   defined in: [War Room Models](models-definitions-operation-file-properties-operation-start-date.md "StartDate#/definitions/OperationFile/properties/startDate")
+*   defined in: [War Room Models](models-definitions-operation-file-properties-operation-start-date.md "WarRoomModels#/definitions/OperationFile/properties/startDate")
 
 ### startDate Type
 
@@ -210,12 +210,12 @@ Operation Static Units such as SAM Batteries
 
 *   is required
 
-*   Type: unknown\[]
+*   Type: `object[]` ([Details](models-definitions-staticunit.md))
 
 *   cannot be null
 
-*   defined in: [War Room Models](models-definitions-operation-file-properties-static-units.md "StaticUnits#/definitions/OperationFile/properties/staticUnits")
+*   defined in: [War Room Models](models-definitions-operation-file-properties-static-units.md "WarRoomModels#/definitions/OperationFile/properties/staticUnits")
 
 ### staticUnits Type
 
-unknown\[]
+`object[]` ([Details](models-definitions-staticunit.md))

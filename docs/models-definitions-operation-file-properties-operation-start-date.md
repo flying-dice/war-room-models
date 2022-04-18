@@ -1,7 +1,7 @@
 # Operation Start Date Schema
 
 ```txt
-StartDate#/definitions/OperationFile/properties/startDate
+WarRoomModels#/definitions/OperationFile/properties/startDate
 ```
 
 ISO Date Time String

@@ -1,7 +1,7 @@
 # Ground Units Schema
 
 ```txt
-GroundUnits#/definitions/OperationFile/properties/groundUnits
+WarRoomModels#/definitions/OperationFile/properties/groundUnits
 ```
 
 Operation Ground Units such as Infantry or Armor Brigades
@@ -12,4 +12,4 @@ Operation Ground Units such as Infantry or Armor Brigades
 
 ## groundUnits Type
 
-unknown\[]
+`object[]` ([Details](models-definitions-groundunit.md))

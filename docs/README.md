@@ -8,11 +8,11 @@
 
 ### Objects
 
-*   [Coalitions](./models-definitions-operation-file-properties-coalitions.md "Operation Coalitions") – `Coalitions#/definitions/OperationFile/properties/coalitions`
+*   [AirUnit](./models-definitions-airunit.md "Air Unit Model such as Fighter, Bomber or CAS Wing") – `WarRoomModels#/definitions/AirUnit`
 
-*   [Operation File](./models-definitions-operation-file.md "War Room Operation File") – `OperationFile#/definitions/OperationFile`
+*   [Coalitions](./models-definitions-operation-file-properties-coalitions.md "Operation Coalitions") – `WarRoomModels#/definitions/OperationFile/properties/coalitions`
 
-*   [Untitled object in War Room Models](./models-definitions-airunit.md) – `WarRoomModels#/definitions/AirUnit`
+*   [Operation File](./models-definitions-operation-file.md "War Room Operation File") – `WarRoomModels#/definitions/OperationFile`
 
 *   [Untitled object in War Room Models](./models-definitions-damageable.md) – `WarRoomModels#/definitions/Damageable`
 
@@ -42,6 +42,8 @@
 
 *   [Untitled object in War Room Models](./models-definitions-locatable.md) – `WarRoomModels#/definitions/Locatable`
 
+*   [Untitled object in War Room Models](./models-definitions-groundunit-properties-location.md) – `WarRoomModels#/definitions/GroundUnit/properties/location`
+
 *   [Untitled object in War Room Models](./models-definitions-point.md "Point Geometry Objecthttps://tools") – `WarRoomModels#/definitions/Point`
 
 *   [Untitled object in War Room Models](./models-definitions-polygon.md "Polygon Geometry Objecthttps://tools") – `WarRoomModels#/definitions/Polygon`
@@ -54,17 +56,17 @@
 
 ### Arrays
 
-*   [Air Units](./models-definitions-operation-file-properties-air-units.md "Operation Air Units such as Fighter Wings") – `AirUnits#/definitions/OperationFile/properties/airUnits`
+*   [Air Units](./models-definitions-operation-file-properties-air-units.md "Operation Air Units such as Fighter Wings") – `WarRoomModels#/definitions/OperationFile/properties/airUnits`
 
-*   [Blufor](./models-definitions-operation-file-properties-coalitions-properties-blufor.md "Operation Blufor Coalition") – `Blufor#/definitions/OperationFile/properties/coalitions/properties/blufor`
+*   [Blufor](./models-definitions-operation-file-properties-coalitions-properties-blufor.md "Operation Blufor Coalition") – `WarRoomModels#/definitions/OperationFile/properties/coalitions/properties/blufor`
 
-*   [Ground Units](./models-definitions-operation-file-properties-ground-units.md "Operation Ground Units such as Infantry or Armor Brigades") – `GroundUnits#/definitions/OperationFile/properties/groundUnits`
+*   [Ground Units](./models-definitions-operation-file-properties-ground-units.md "Operation Ground Units such as Infantry or Armor Brigades") – `WarRoomModels#/definitions/OperationFile/properties/groundUnits`
 
-*   [Installations](./models-definitions-operation-file-properties-installations.md "Operation Installations such as Airbases or Naval Bases") – `Installations#/definitions/OperationFile/properties/installations`
+*   [Installations](./models-definitions-operation-file-properties-installations.md "Operation Installations such as Airbases or Naval Bases") – `WarRoomModels#/definitions/OperationFile/properties/installations`
 
-*   [Opfor](./models-definitions-operation-file-properties-coalitions-properties-opfor.md "Operation Opfor Coalition") – `Opfor#/definitions/OperationFile/properties/coalitions/properties/opfor`
+*   [Opfor](./models-definitions-operation-file-properties-coalitions-properties-opfor.md "Operation Opfor Coalition") – `WarRoomModels#/definitions/OperationFile/properties/coalitions/properties/opfor`
 
-*   [Static Units](./models-definitions-operation-file-properties-static-units.md "Operation Static Units such as SAM Batteries") – `StaticUnits#/definitions/OperationFile/properties/staticUnits`
+*   [Static Units](./models-definitions-operation-file-properties-static-units.md "Operation Static Units such as SAM Batteries") – `WarRoomModels#/definitions/OperationFile/properties/staticUnits`
 
 *   [Untitled array in War Room Models](./models-definitions-bbox2d.md "Bounding boxhttps://tools") – `WarRoomModels#/definitions/BBox2d`
 

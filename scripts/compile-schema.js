@@ -1,8 +1,10 @@
 const { stringify } = require("javascript-stringify");
 const { writeFileSync } = require("fs");
-const { resolve } = require("path");
+const { resolve, join } = require("path");
+const { writeJsonSync, readJsonSync } = require("fs-extra");
 
-const schema = require("../schema.json");
+const schemaFile = join(__dirname, "../schema.json");
+const schema = readJsonSync(schemaFile);
 
 writeFileSync(
   resolve(__dirname, "../src/schema.ts"),

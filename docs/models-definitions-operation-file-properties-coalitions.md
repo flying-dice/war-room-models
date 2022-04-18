@@ -1,7 +1,7 @@
 # Coalitions Schema
 
 ```txt
-Coalitions#/definitions/OperationFile/properties/coalitions
+WarRoomModels#/definitions/OperationFile/properties/coalitions
 ```
 
 Operation Coalitions
@@ -16,10 +16,10 @@ Operation Coalitions
 
 # coalitions Properties
 
-| Property          | Type    | Required | Nullable       | Defined by                                                                                                                                                                  |
-| :---------------- | :------ | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [blufor](#blufor) | `array` | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-coalitions-properties-blufor.md "Blufor#/definitions/OperationFile/properties/coalitions/properties/blufor") |
-| [opfor](#opfor)   | `array` | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-coalitions-properties-opfor.md "Opfor#/definitions/OperationFile/properties/coalitions/properties/opfor")    |
+| Property          | Type    | Required | Nullable       | Defined by                                                                                                                                                                         |
+| :---------------- | :------ | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [blufor](#blufor) | `array` | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-coalitions-properties-blufor.md "WarRoomModels#/definitions/OperationFile/properties/coalitions/properties/blufor") |
+| [opfor](#opfor)   | `array` | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-coalitions-properties-opfor.md "WarRoomModels#/definitions/OperationFile/properties/coalitions/properties/opfor")   |
 
 ## blufor
 
@@ -33,7 +33,7 @@ Operation Blufor Coalition
 
 *   cannot be null
 
-*   defined in: [War Room Models](models-definitions-operation-file-properties-coalitions-properties-blufor.md "Blufor#/definitions/OperationFile/properties/coalitions/properties/blufor")
+*   defined in: [War Room Models](models-definitions-operation-file-properties-coalitions-properties-blufor.md "WarRoomModels#/definitions/OperationFile/properties/coalitions/properties/blufor")
 
 ### blufor Type
 
@@ -65,7 +65,7 @@ Operation Opfor Coalition
 
 *   cannot be null
 
-*   defined in: [War Room Models](models-definitions-operation-file-properties-coalitions-properties-opfor.md "Opfor#/definitions/OperationFile/properties/coalitions/properties/opfor")
+*   defined in: [War Room Models](models-definitions-operation-file-properties-coalitions-properties-opfor.md "WarRoomModels#/definitions/OperationFile/properties/coalitions/properties/opfor")
 
 ### opfor Type
 

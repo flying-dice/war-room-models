@@ -1,7 +1,7 @@
 # Operation ID Schema
 
 ```txt
-OperationFile#/definitions/OperationFile/properties/id
+WarRoomModels#/definitions/OperationFile/properties/id
 ```
 
 

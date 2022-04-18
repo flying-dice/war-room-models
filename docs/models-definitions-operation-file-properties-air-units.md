@@ -1,7 +1,7 @@
 # Air Units Schema
 
 ```txt
-AirUnits#/definitions/OperationFile/properties/airUnits
+WarRoomModels#/definitions/OperationFile/properties/airUnits
 ```
 
 Operation Air Units such as Fighter Wings
@@ -12,4 +12,4 @@ Operation Air Units such as Fighter Wings
 
 ## airUnits Type
 
-unknown\[]
+`object[]` ([AirUnit](models-definitions-airunit.md))

@@ -1,7 +1,7 @@
 # Static Units Schema
 
 ```txt
-StaticUnits#/definitions/OperationFile/properties/staticUnits
+WarRoomModels#/definitions/OperationFile/properties/staticUnits
 ```
 
 Operation Static Units such as SAM Batteries
@@ -12,4 +12,4 @@ Operation Static Units such as SAM Batteries
 
 ## staticUnits Type
 
-unknown\[]
+`object[]` ([Details](models-definitions-staticunit.md))

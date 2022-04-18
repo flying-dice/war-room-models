@@ -1,7 +1,7 @@
 # Untitled string in War Room Models Schema
 
 ```txt
-Opfor#/definitions/OperationFile/properties/coalitions/properties/opfor/items
+WarRoomModels#/definitions/OperationFile/properties/coalitions/properties/opfor/items
 ```
 
 
