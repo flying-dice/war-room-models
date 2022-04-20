@@ -16,10 +16,11 @@ Operation Coalitions
 
 # coalitions Properties
 
-| Property          | Type    | Required | Nullable       | Defined by                                                                                                                                                                         |
-| :---------------- | :------ | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [blufor](#blufor) | `array` | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-coalitions-properties-blufor.md "WarRoomModels#/definitions/OperationFile/properties/coalitions/properties/blufor") |
-| [opfor](#opfor)   | `array` | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-coalitions-properties-opfor.md "WarRoomModels#/definitions/OperationFile/properties/coalitions/properties/opfor")   |
+| Property          | Type     | Required | Nullable       | Defined by                                                                                                                                                                         |
+| :---------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [blufor](#blufor) | `array`  | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-coalitions-properties-blufor.md "WarRoomModels#/definitions/OperationFile/properties/coalitions/properties/blufor") |
+| [opfor](#opfor)   | `array`  | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-coalitions-properties-opfor.md "WarRoomModels#/definitions/OperationFile/properties/coalitions/properties/opfor")   |
+| [player](#player) | `string` | Required | cannot be null | [War Room Models](models-definitions-operation-file-properties-coalitions-properties-player.md "WarRoomModels#/definitions/OperationFile/properties/coalitions/properties/player") |
 
 ## blufor
 
@@ -84,3 +85,30 @@ Operation Opfor Coalition
 ```json
 "IR"
 ```
+
+## player
+
+Which Coalition the Player Represents
+
+`player`
+
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [War Room Models](models-definitions-operation-file-properties-coalitions-properties-player.md "WarRoomModels#/definitions/OperationFile/properties/coalitions/properties/player")
+
+### player Type
+
+`string`
+
+### player Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value      | Explanation |
+| :--------- | :---------- |
+| `"BLUFOR"` |             |
+| `"OPFOR"`  |             |

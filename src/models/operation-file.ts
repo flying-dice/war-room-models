@@ -41,6 +41,12 @@ export interface OperationFile {
   coalitions: {
 
     /**
+     * Player Coalition
+     * @description Which Coalition the Player Represents
+     */
+    player: "BLUFOR" | "OPFOR"
+
+    /**
      * @title Blufor
      * @description Operation Blufor Coalition
      * @format iso-31661-alpha-2
