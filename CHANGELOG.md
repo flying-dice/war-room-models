@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/flying-dice/war-room-models/compare/v1.8.0...v1.9.0) (2022-04-20)
+
+
+### Features
+
+* add player coalition to operation file ([27d9747](https://github.com/flying-dice/war-room-models/commit/27d9747279317615b79c86fa622eb8bd870ad8b2))
+
 # [1.8.0](https://github.com/flying-dice/war-room-models/compare/v1.7.0...v1.8.0) (2022-04-18)
 
 
