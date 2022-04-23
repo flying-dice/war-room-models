@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/flying-dice/war-room-models/compare/v1.9.0...v1.10.0) (2022-04-23)
+
+
+### Features
+
+* add weather model ([e0a8d36](https://github.com/flying-dice/war-room-models/commit/e0a8d36e2018523eea6f9419809e75aba1142a57))
+
 # [1.9.0](https://github.com/flying-dice/war-room-models/compare/v1.8.0...v1.9.0) (2022-04-20)
 
 
