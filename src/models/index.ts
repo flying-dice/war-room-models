@@ -8,3 +8,4 @@ export * from "./locatable";
 export * from "./operation-file";
 export * from "./static-unit";
 export * from "./unit";
+export * from "./weather";
