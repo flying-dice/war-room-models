@@ -1,0 +1,8 @@
+export enum Echelon {
+  SQUADRON = "SQUADRON",
+  BATTERY = "BATTERY",
+  BATTALION = "BATTALION",
+  WING = "WING",
+  BRIGADE = "BRIGADE",
+  DIVISION = "DIVISION",
+}
