@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/flying-dice/war-room-models/compare/v1.10.0...v1.11.0) (2022-05-08)
+
+
+### Features
+
+* add opord ([a48e14d](https://github.com/flying-dice/war-room-models/commit/a48e14d29818591053deadf4a51ee3e321a623e7))
+
 # [1.10.0](https://github.com/flying-dice/war-room-models/compare/v1.9.0...v1.10.0) (2022-04-23)
 
 
