@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/flying-dice/war-room-models/compare/v1.11.0...v1.11.1) (2022-05-08)
+
+
+### Bug Fixes
+
+* use correct format for datetime in weather ([85cd08a](https://github.com/flying-dice/war-room-models/commit/85cd08a3d7f3a8ffc463981bdea1fad2dfbbd7da))
+
 # [1.11.0](https://github.com/flying-dice/war-room-models/compare/v1.10.0...v1.11.0) (2022-05-08)
 
 
