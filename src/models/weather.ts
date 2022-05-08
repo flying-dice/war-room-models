@@ -3,56 +3,57 @@
  * @description Weather Information at a given station
  */
 export interface Weather {
+  /**
+   * Weather Conditions
+   */
+  conditions: {
     /**
-     * Weather Conditions
+     * Observing Station
      */
-    conditions: {
-        /**
-         * Observing Station
-         */
-        icao: string;
+    icao: string;
 
-        /**
-         * Time the Weather Observation was made
-         */
-        timeOfObservation: Date;
+    /**
+     * Time the Weather Observation was made
+     * @format iso-8601
+     */
+    timeOfObservation: string;
 
-        /**
-         * Wind Direction
-         */
-        windDirection: number;
+    /**
+     * Wind Direction
+     */
+    windDirection: number;
 
-        /**
-         * Wind Speed in Meters Per Second
-         */
-        windSpeed: number;
+    /**
+     * Wind Speed in Meters Per Second
+     */
+    windSpeed: number;
 
-        /**
-         * Prevailing Visibility in Meters
-         */
-        prevailingVisibility: number;
+    /**
+     * Prevailing Visibility in Meters
+     */
+    prevailingVisibility: number;
 
-        /**
-         * Temperature in Celsius
-         */
-        temperature: number;
+    /**
+     * Temperature in Celsius
+     */
+    temperature: number;
 
-        /**
-         * Dew Point in Celsius
-         */
-        dewpoint: number;
+    /**
+     * Dew Point in Celsius
+     */
+    dewpoint: number;
 
-        clouds?: {
-            /**
-             * Okta rating of the cloud
-             * SKC = Sky clear (0 oktas);
-             * FEW = Few (1 to 2 oktas);
-             * SCT = Scattered (3 to 4 oktas);
-             * BKN = Broken (5 to 7 oktas);
-             * OVC = Overcast (8 oktas);
-             */
-            okta: 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8;
-            altitude: number;
-        }[];
-    };
+    clouds?: {
+      /**
+       * Okta rating of the cloud
+       * SKC = Sky clear (0 oktas);
+       * FEW = Few (1 to 2 oktas);
+       * SCT = Scattered (3 to 4 oktas);
+       * BKN = Broken (5 to 7 oktas);
+       * OVC = Overcast (8 oktas);
+       */
+      okta: 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8;
+      altitude: number;
+    }[];
+  };
 }
